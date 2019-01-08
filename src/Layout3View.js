@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { PDFViewer, Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
 
-import RenderLists3 from '../components/GroceryListToPDF/RenderLists3/RenderLists3'
+import RenderLists3 from '@groceristar/pdf-export';
+// import RenderLists3 from './components/RenderLists/RenderLists3';
+
 // Create styles
 // import styles from './styles'
 
-import { getFullGrocery } from "../selectors/selector";
+import { getFullGrocery } from "./selector";
 
 // console.log(styles)
 const data = getFullGrocery("19 Gluten-Free Foods Shopping List");
@@ -63,7 +65,7 @@ const styles = StyleSheet.create({
   </View>
 </View> */}
 
-const MyDocument = () => (
+const Layout3View = () => (
   <PDFViewer width={1200} height={1000}>
   <Document>
     <Page size="A4" style={styles.page} wrap>
@@ -73,6 +75,7 @@ const MyDocument = () => (
         </Text>
 
         <RenderLists3 data={data} />
+          {/* <RenderLists1 groceryName2={"19 Gluten-Free Foods Shopping List"}/> */}
     </View>
     </Page>
   </Document>
@@ -80,4 +83,4 @@ const MyDocument = () => (
 );
 
 
-export default MyDocument
+export default Layout3View;
