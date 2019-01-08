@@ -11,8 +11,7 @@ import RenderLists3 from '@groceristar/pdf-export';
 import { getFullGrocery } from "./selector";
 
 // console.log(styles)
-const data = getFullGrocery("19 Gluten-Free Foods Shopping List");
-console.log(data);
+
 // Create Document Component
 
 const styles = StyleSheet.create({
@@ -65,22 +64,28 @@ const styles = StyleSheet.create({
   </View>
 </View> */}
 
-const Layout3View = () => (
-  <PDFViewer width={1200} height={1000}>
-  <Document>
-    <Page size="A4" style={styles.page} wrap>
-      <View style={styles.section}>
-        <Text style={styles.text}>
-          19 Gluten-Free Foods Shopping List
-        </Text>
+const Layout3View = () => {
 
-        <RenderLists3 data={data} />
-          {/* <RenderLists1 groceryName2={"19 Gluten-Free Foods Shopping List"}/> */}
-    </View>
-    </Page>
-  </Document>
-</PDFViewer>
-);
+  const data = getFullGrocery("19 Gluten-Free Foods Shopping List");
+  console.log(data);
 
+  return (
+    <PDFViewer width={1200} height={1000}>
+    <Document>
+      <Page size="A4" style={styles.page} wrap>
+        <View style={styles.section}>
+          <Text style={styles.text}>
+            19 Gluten-Free Foods Shopping List
+          </Text>
+
+          <RenderLists3 data={data} />
+
+      </View>
+      </Page>
+    </Document>
+  </PDFViewer>
+  );
+
+}
 
 export default Layout3View;
