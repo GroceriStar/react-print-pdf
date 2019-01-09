@@ -2,15 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { PDFViewer, Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
 
-import RenderLists3 from '../components/GroceryListToPDF/RenderLists3/RenderLists3'
+import { RenderLists3 } from '@groceristar/pdf-export';
+
+
 // Create styles
 // import styles from './styles'
 
-import { getFullGrocery } from "../selectors/selector";
+import { getFullGrocery } from "./selector";
 
 // console.log(styles)
-const data = getFullGrocery("19 Gluten-Free Foods Shopping List");
-console.log(data);
+
 // Create Document Component
 
 const styles = StyleSheet.create({
@@ -63,21 +64,28 @@ const styles = StyleSheet.create({
   </View>
 </View> */}
 
-const MyDocument = () => (
-  <PDFViewer width={1200} height={1000}>
-  <Document>
-    <Page size="A4" style={styles.page} wrap>
-      <View style={styles.section}>
-        <Text style={styles.text}>
-          19 Gluten-Free Foods Shopping List
-        </Text>
+const Layout3View = () => {
 
-        <RenderLists3 data={data} />
-    </View>
-    </Page>
-  </Document>
-</PDFViewer>
-);
+  const data = getFullGrocery("19 Gluten-Free Foods Shopping List");
+  // console.log(data);
 
+  return (
+    <PDFViewer width={1200} height={1000}>
+    <Document>
+      <Page size="A4" style={styles.page} wrap>
+        <View style={styles.section}>
+          <Text style={styles.text}>
+            19 Gluten-Free Foods Shopping List
+          </Text>
 
-export default MyDocument
+          <RenderLists3 data={data} />
+
+      </View>
+      </Page>
+    </Document>
+  </PDFViewer>
+  );
+
+}
+
+export default Layout3View;

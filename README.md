@@ -3,4 +3,4 @@ Grocery list page build with React. Ability to see grocery list information, pri
 
 
 install
-- [ ] @groceristar/pdf-export
+- [x] @groceristar/pdf-export
