@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
 const Layout3View = () => {
 
   const data = getFullGrocery("19 Gluten-Free Foods Shopping List");
-  console.log(data);
+  // console.log(data);
 
   return (
     <PDFViewer width={1200} height={1000}>
