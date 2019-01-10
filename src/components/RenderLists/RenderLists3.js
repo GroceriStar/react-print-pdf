@@ -15,17 +15,7 @@ import uuidv1 from 'uuid/v1';
 const styles = StyleSheet.create({
   title: {
     fontSize: 16,
-    marginBottom: 10,
-    borderRadius: 5,
-    backgroundColor:'#45322E',
     color:"white",
-    // borderBottomWidth: 5,
-    //   borderBottomColor: 'red',
-    // borderBottomStyle: "solid",
-    // padding: 4,
-    // border: '1 solid black',
-    // borderWidth: 1,
-    // borderColor: 'black',
     flexDirection:'column',
   },
   skills: {
@@ -34,51 +24,54 @@ const styles = StyleSheet.create({
   },
   main: {
     marginTop: '10px',
-    display: 'flex',
     minHeight: '60px',
-    border: '1px solid black',
-    width: '300px'
-  // borderLeft: '1 solid black',
-  // borderRight: '1 solid black',
+    width: '300px',
+    backgroundColor: 'green',
+    paddingBottom:1,
   },
   block: {
-
     margin: '0',
     flexDirection:'column',
     backgroundColor:'green',
+  },
+  department:{
+      // justifyContent:'center',
+     alignItems:'center'
   }
 });
 
 
 const ListsDepartment = ({ department, ingredients }) => (
-  <View style={styles.main}>
-    <View>
+    <View style={styles.main} debug={false}>
+      {/* <View>
+            <Text style={styles.title}>19 Gluten-Free Foods Shopping List </Text>
+      </View> */}
+    <View style={styles.department}>
+
+
       <Text style={styles.title}>
         {department}
       </Text>
     </View>
 
-    {/*}<View style={styles.block} > */}
     <List3>
       {ingredients.map((ingredient, num) => <Item
         key={uuidv1()}>{ingredient}</Item>)}
     </List3>
-     {/*</View> */}
-
   </View>
+
 );
 
 // @TODO this is a bad situation where we have a passing data as it is - we use names, not id at not a main container - component
 // and this will be hardly to catch later
 const RenderLists3 = (props) => (
-  <View>
-    {props.data.map(item => (
+    props.data.map(item => (
       <ListsDepartment
         key={uuidv1()}
         department={item.department}
         ingredients={item.ingredients} />
-    ))}
-  </View>
+    ))
+
 );
 
 
