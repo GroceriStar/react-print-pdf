@@ -30,9 +30,9 @@ const Lists1 = ({ department, ingredients }) => (
     <Text style={styles.title}>
       {department}
     </Text>
-    <List>
+    <List1>
       {ingredients.map((ingredient) => <Item key={uuidv1()}>{ingredient}</Item>)}
-    </List>
+    </List1>
   </View>
 );
 
@@ -41,7 +41,7 @@ const Lists1 = ({ department, ingredients }) => (
 const RenderLists1 = (props) => (
   <View>
     {getFullGrocery(props.groceryName2).map(item => (
-      <Lists
+      <Lists1
         key={uuidv1()}
         department={item.department}
         ingredients={item.ingredients} />
