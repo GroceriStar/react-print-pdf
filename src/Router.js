@@ -6,6 +6,8 @@ import {
 import Layout1View from './views/Layout1View'
 import Layout2View from './views/Layout2View'
 import Layout3View from './views/Layout3View'
+import Layout4View from './views/Layout4View'
+
 import RecipeLayoutView from './views/RecipeLayoutView'
 
 
@@ -21,9 +23,8 @@ class Router extends Component {
           <Route path="/pdf1"   exact component={Layout1View} />
           <Route path="/pdf2"   exact component={Layout2View} />
           <Route path="/pdf3"   exact component={Layout3View} />
-
+          <Route path="/pdf4"   exact component={Layout4View} />
           <Route path="/recipe" exact component={RecipeLayoutView} />
-          <Route path="/recipeLayout" exact component={RecipeLayout} />
 
 
           <Link to="/pdf1" >pdf1 view</Link> <br />
