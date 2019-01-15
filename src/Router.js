@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import {
+  BrowserRouter, Switch, Route, Link 
+} from 'react-router-dom';
 
-
-import Layout3View from './Layout3View'
-import RecipeLayoutView from './RecipeLayoutView'
+import Layout1View from './views/Layout1View'
+import Layout2View from './views/Layout2View'
+import Layout3View from './views/Layout3View'
+import RecipeLayoutView from './views/RecipeLayoutView'
 
 
 
