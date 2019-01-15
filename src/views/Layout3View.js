@@ -21,7 +21,7 @@ import { RenderLists3 } from '@groceristar/pdf-export';
 
 
 
-import { getFullGrocery } from "./selector";
+import { getFullGrocery } from "../selectors/selector";
 
 // console.log(styles)
 
