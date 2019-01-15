@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
 import Layout3View from './Layout3View'
 import RecipeLayoutView from './RecipeLayoutView'
-
+import RecipeLayout from './components/RecipeLayout';
 
 
 
@@ -18,6 +18,7 @@ class Router extends Component {
 
           <Route path="/pdf3"   exact component={Layout3View} />
           <Route path="/recipe" exact component={RecipeLayoutView} />
+          <Route path="/recipeLayout" exact component={RecipeLayout} />
 
 
           <Link to="/pdf1" >pdf1 view</Link> <br />
