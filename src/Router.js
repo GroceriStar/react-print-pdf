@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  BrowserRouter, Switch, Route, Link 
+  BrowserRouter, Switch, Route, Link
 } from 'react-router-dom';
 
 import Layout1View from './views/Layout1View'
@@ -18,8 +18,10 @@ class Router extends Component {
 
 
         <Switch>
-
+          <Route path="/pdf1"   exact component={Layout1View} />
+          <Route path="/pdf2"   exact component={Layout2View} />
           <Route path="/pdf3"   exact component={Layout3View} />
+
           <Route path="/recipe" exact component={RecipeLayoutView} />
 
 
