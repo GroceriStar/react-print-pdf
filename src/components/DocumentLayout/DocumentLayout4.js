@@ -6,8 +6,6 @@ import {
   Document
 } from '@react-pdf/renderer';
 
-import { getFullGrocery } from "../../selectors/selector";
-
 const DocumentLayout4 = ( styles, recipe) => (
   <Document>
     <Page size="A4" style={styles.page} wrap>
