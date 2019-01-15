@@ -2,8 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { PDFViewer, Document, Page, Text, View,Font, Image, StyleSheet } from '@react-pdf/renderer';
 
-// import { RenderLists3 } from '@groceristar/pdf-export';
-import { RenderLists3 } from './components/index'
+import { RenderLists3 } from '@groceristar/pdf-export';
+
+
+// import { RenderLists3 } from './components/index'
+
+
+
+
 // import Doc from 'fractals/index';
 // Create styles
 // import styles from './styles'

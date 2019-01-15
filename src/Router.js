@@ -13,14 +13,17 @@ class Router extends Component {
     return (
       <BrowserRouter>
 
-      
+
         <Switch>
 
-          <Route path="/pdf3" exact component={Layout3View} />
+          <Route path="/pdf3"   exact component={Layout3View} />
           <Route path="/recipe" exact component={RecipeLayoutView} />
 
 
-
+          <Link to="/pdf1" >pdf1 view</Link> <br />
+          <Link to="/pdf2" >pdf2 view</Link> <br />
+          <Link to="/pdf3" >pdf3 view</Link> <br />
+          <Link to="/recipe" >recipe view</Link> <br />
         </Switch>
 
         {/*
