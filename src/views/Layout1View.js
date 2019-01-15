@@ -49,19 +49,21 @@ const Layout1View = () => {
   const data = getFullGrocery("Grocery List Essentials");
   // console.log(data);
 
+  // <View style={styles.direction}>
+  //   <RenderLists1 data={data} />
+  //
+  // </View>
+
   return (
     <PDFViewer width={1200} height={1000}>
     <Document>
       <Page size="A4" style={styles.page}>
 
-          <View style={styles.direction}>
-            <RenderLists1 data={data} />
 
-          </View>
 
           <View style={styles.section}>
             <Text style={styles.text}>
-              {name}
+              {data.name}
             </Text>
             <RenderLists1 data={data}/>
           </View>

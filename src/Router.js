@@ -31,13 +31,6 @@ class Router extends Component {
           <Link to="/recipe" >recipe view</Link> <br />
         </Switch>
 
-        {/*
-        <Link to="/pdf1" >pdf1 view</Link>
-        <Link to="/pdf2" >pdf2 view</Link>
-        <Link to="/pdf3" >pdf3 view</Link>
-        <Link to="/recipe" >recipe view</Link>
-        */}
-
 
       </BrowserRouter>
     )
