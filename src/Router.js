@@ -23,6 +23,7 @@ class Router extends Component {
           <Route path="/pdf3"   exact component={Layout3View} />
 
           <Route path="/recipe" exact component={RecipeLayoutView} />
+          <Route path="/recipeLayout" exact component={RecipeLayout} />
 
 
           <Link to="/pdf1" >pdf1 view</Link> <br />
