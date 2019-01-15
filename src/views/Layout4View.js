@@ -33,7 +33,7 @@ const Layout4View = () => {
 
   return (
     <PDFViewer width={1200} height={1000}>
-      {DocumentLayout4(styles, "Recipes", data)}
+      {DocumentLayout4(styles, data)}
     </PDFViewer>
   );
 

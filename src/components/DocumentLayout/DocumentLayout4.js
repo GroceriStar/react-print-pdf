@@ -8,7 +8,7 @@ import {
 
 import { getFullGrocery } from "../../selectors/selector";
 
-const DocumentLayout4 = ( styles, name, recipe) => (
+const DocumentLayout4 = ( styles, recipe) => (
   <Document>
     <Page size="A4" style={styles.page} wrap>
       <View style={styles.section}>
