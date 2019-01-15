@@ -885,10 +885,10 @@
     lodash "^4.17.10"
     uuid "3.3.2"
 
-"@groceristar/pdf-export@^1.0.20":
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.20.tgz#5431d97a47ebb3c2660fe0edbd9855d2d5fae8ef"
-  integrity sha512-MgCFxQ96o6LUZP/3h7ZfgoyEemWimNs3yuGzcCQQMpEz+smhlKvEwdB7DPuCxgE+eob1Mq3X9YU+leEBLkT7oQ==
+"@groceristar/pdf-export@^1.0.21":
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.21.tgz#02f5829f7eadde99677aa9e57f710f8cdb14a3e3"
+  integrity sha512-mHHU+hsJfOBkZ/uVoKwOrZjIQOj/Lw/FHss+sh3GXYnQFbJkYW1/C7Kn07lUGAqk9OLRClvHzuD2GeICtyRPeA==
   dependencies:
     "@groceristar/groceristar-fetch" "^1.1.37"
     "@react-pdf/renderer" "^1.1.1"
