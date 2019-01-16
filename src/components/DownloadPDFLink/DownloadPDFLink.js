@@ -7,9 +7,8 @@ import {
 import { Button } from 'antd';
 
 
-import { DocumentLayout3, RenderLists3 }  from '../index';
+import { DocumentLayouts }  from '../index';
 
-import styles from './styles'
 
 // import RenderLists from '../RenderLists/RenderLists';
 
@@ -22,9 +21,11 @@ import styles from './styles'
 //@TODO right now color of text Download now is blue on blue background
 // we also didn't see a text - loading now.....
 
-class DownloadPDFLink3 extends Component {
+class DownloadPDFLink extends Component {
 
   render(){
+    const { type, name, data } = this.props;
+
     return (
         <Button
           type="primary"
@@ -32,8 +33,8 @@ class DownloadPDFLink3 extends Component {
           size="large">
 
            <PDFDownloadLink
-             document={DocumentLayout3(styles, this.props.name)}
-             fileName={this.props.name + ".pdf"}>
+             document={DocumentLayouts(type, name, data)}
+             fileName={name + ".pdf"}>
                {({ blob, url, loading, error }) => (
                  loading ? 'Loading document...' : 'Download now!'
                )}
@@ -44,4 +45,4 @@ class DownloadPDFLink3 extends Component {
   }
 }
 
-export default DownloadPDFLink3;
+export default DownloadPDFLink;
