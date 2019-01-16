@@ -6,7 +6,7 @@ import {
 } from '@react-pdf/renderer';
 
 import { getRecipes } from "../selectors/selector";
-import { DocumentLayout4 } from '../components/index'
+import { DocumentLayouts } from '../components/index'
 
 
 const styles = StyleSheet.create({
@@ -33,7 +33,7 @@ const Layout4View = () => {
 
   return (
     <PDFViewer width={1200} height={1000}>
-      {DocumentLayout4(styles, data)}
+      {DocumentLayouts('PDF4', "Recipes", data)}
     </PDFViewer>
   );
 

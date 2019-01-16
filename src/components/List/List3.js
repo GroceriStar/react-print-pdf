@@ -9,44 +9,31 @@ const styles = StyleSheet.create({
   item: {
     flexDirection: 'row',
     // marginBottom: 5,
-    "marginLeft": "21px",
-    // marginTop:5,
-    borderLeft:"2 solid green"
+    "marginLeft": "25px",
   },
   bulletPoint: {
     width: 10,
     fontSize: 14,
   },
-  text: {
-    // flex: 1,
-    fontSize: 14,
-    marginTop:4,
-    marginLeft:4,
-    marginBottom:1
-     // justifyContent:'center'
+  itemContent: {
+    flex: 1,
+    fontSize: 14
   },
   blockItem: {
-   backgroundColor: 'white',
-   margin:1,
-   marginRight:2,
-   marginLeft:2,
-   // marginBottom:2,
-   justifyContent:'center',
+   backgroundColor: '#e14427',
    // marginLeft:10,
-   // border: '1 solid black'
+   border: '1 solid black'
  },
   knob: {
-
-    // borderBottomWidth:1,
-    // borderBottomColor:'green',
+    borderBottomWidth:1,
+    borderBottomColor:'black',
     // marginLeft:10,
-    // flexShrink:1,
     alignItems: 'center',
     justifyContent: 'center',
-    width: '21px',
-    height: '21px',
-    // borderRightWidth: 2,
-    // borderRightColor: 'green',
+    width: '10px',
+    height: '10px',
+    borderWidth: 1,
+    borderColor: 'black',
     position: 'absolute',
     backgroundColor: 'white',
     fontSize: 8,
@@ -57,11 +44,11 @@ const List3 = ({ children }) => children;
 
 
 export const Item  = ({ children}) => (
-  <View style={styles.blockItem} debug={false}>
-    {/* <View style={[styles.knob]}>
-    </View> */}
-    <View style={styles.item} debug={false}>
-      <Text style={styles.text}>{children}</Text>
+  <View style={styles.blockItem}>
+    <View style={[styles.knob]}>
+    </View>
+    <View style={styles.item}>
+      <Text style={styles.itemContent}>{children}</Text>
     </View>
   </View>
 );

@@ -4,10 +4,10 @@ import React from 'react';
 import { Button } from 'antd';
 
 // import DownloadPDFLink from '../DownloadPDFLink/DownloadPDFLink';
-import { DownloadPDFLink1 } from '../index'
+import { DownloadPDFLink } from '../index'
 
 
-class GeneratePDFButton1 extends React.Component {
+class GeneratePDFButton extends React.Component {
 
   constructor(props) {
     super(props);
@@ -23,6 +23,7 @@ class GeneratePDFButton1 extends React.Component {
   }
 
   render(){
+    const { type, name, data } = this.props;
     return (
       <div>
         {this.state.isHidden &&
@@ -33,11 +34,12 @@ class GeneratePDFButton1 extends React.Component {
         }
 
          {!this.state.isHidden &&
-            <DownloadPDFLink1 name={this.props.name}/>
+            <DownloadPDFLink
+              type={type} name={name} data={data}/>
          }
        </div>
    );
  }
 }
 
-export default GeneratePDFButton1;
+export default GeneratePDFButton;

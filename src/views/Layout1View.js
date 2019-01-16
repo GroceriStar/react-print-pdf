@@ -5,7 +5,8 @@ import {
   Text, View,Font, Image, StyleSheet
 } from '@react-pdf/renderer';
 
-import { RenderLists1 } from '@groceristar/pdf-export';
+// import { RenderLists1 } from '@groceristar/pdf-export';
+import { RenderLists1 } from '../components/index'
 
 
 // import { RenderLists3 } from './components/index'

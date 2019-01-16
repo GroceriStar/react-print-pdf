@@ -9,7 +9,7 @@ import Layout3View from './views/Layout3View'
 import Layout4View from './views/Layout4View'
 
 import RecipeLayoutView from './views/RecipeLayoutView'
-
+import Home from './views/Home'
 
 
 
@@ -25,7 +25,7 @@ class Router extends Component {
           <Route path="/pdf3"   exact component={Layout3View} />
           <Route path="/pdf4"   exact component={Layout4View} />
           <Route path="/recipe" exact component={RecipeLayoutView} />
-
+          <Route path="/"       exact component={Home} />
 
           <Link to="/pdf1" >pdf1 view</Link> <br />
           <Link to="/pdf2" >pdf2 view</Link> <br />
