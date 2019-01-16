@@ -876,13 +876,14 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@groceristar/groceristar-fetch@^1.1.37":
-  version "1.1.37"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.37.tgz#0307ed29e3c299c06398f4fe8f9f5de6b9510f5f"
-  integrity sha512-yfF6tjLd7lroT4HgpHCkyny87w8m1n4S6/rIZCV2EZkJXcn6sj0H6VwfJ7TOT4DZnbegGpHj+gSHiOqR1BnJ8Q==
+"@groceristar/groceristar-fetch@^1.1.37", "@groceristar/groceristar-fetch@^1.1.40":
+  version "1.1.40"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.40.tgz#256437359ad3e31ae992d9eb4dbe45a37dbad44b"
+  integrity sha512-lr+4sqUaetPI3SoKcmgDUiA9dG+OSIIb6zGgBmb4cA6bos9gOTQHV7WEGpnt55BgdlAbFEcehvjjy7JHOVE2NQ==
   dependencies:
     fs "0.0.1-security"
     lodash "^4.17.10"
+    underscore "^1.9.1"
     uuid "3.3.2"
 
 "@groceristar/pdf-export@^1.0.21":
@@ -10519,6 +10520,11 @@ uglifyjs-webpack-plugin@^1.2.4:
     uglify-es "^3.3.4"
     webpack-sources "^1.1.0"
     worker-farm "^1.5.2"
+
+underscore@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
+  integrity sha512-5/4etnCkd9c8gwgowi5/om/mYO5ajCaOgdzj/oW+0eQV9WxKBDZw5+ycmKmeaTXjInS/W0BzpGLo2xR2aBwZdg==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
