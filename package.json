@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@groceristar/groceristar-fetch": "^1.1.40",
-    "@groceristar/pdf-export": "^1.0.21",
+    "@groceristar/pdf-export": "^1.0.22",
     "@react-pdf/renderer": "^1.1.1",
     "antd": "^3.12.3",
     "lodash": "^4.17.11",
