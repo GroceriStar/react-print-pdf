@@ -3,9 +3,9 @@ import { StyleSheet } from '@react-pdf/renderer';
 const styles = StyleSheet.create({
   title: {
     fontSize: 16,
-    marginBottom: 10,
-    borderRadius: 5,
-    backgroundColor:'#45322E',
+    // marginBottom: 10,
+    // borderRadius: 5,
+    // backgroundColor:'#45322E',
     color:"white",
     // borderBottomWidth: 5,
     //   borderBottomColor: 'red',
@@ -22,18 +22,25 @@ const styles = StyleSheet.create({
   },
   main: {
     marginTop: '10px',
-    display: 'flex',
+    // display: 'flex',
     minHeight: '60px',
-    border: '1px solid black',
-    width: '300px'
+    // border: '1px solid black',
+    // width: '300px'
   // borderLeft: '1 solid black',
   // borderRight: '1 solid black',
+    width: '300px',
+   backgroundColor: 'green',
+   paddingBottom:1,
   },
   block: {
 
     margin: '0',
     flexDirection:'column',
     backgroundColor:'green',
+  },
+  department:{
+      // justifyContent:'center',
+     alignItems:'center'
   }
 });
 
