@@ -876,7 +876,7 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@groceristar/groceristar-fetch@^1.1.37", "@groceristar/groceristar-fetch@^1.1.47":
+"@groceristar/groceristar-fetch@^1.1.47":
   version "1.1.47"
   resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.47.tgz#e9744f3ac34b15ed2ee26d7b37a4c6db511624ee"
   integrity sha512-56YDZGj8pqtFk4BMFQjzBh+yyE3Zpd7D6Wb1YH7Br5S1KT6p4d7B8sjmY9ncLP1GSo2Hm3bcsnAwPWovvHPzjw==
@@ -886,13 +886,12 @@
     underscore "^1.9.1"
     uuid "3.3.2"
 
-"@groceristar/pdf-export@^1.0.23":
-  version "1.0.23"
-  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.23.tgz#22f6476d9ccdd4211b5b0da6c44617039a4d7874"
-  integrity sha512-8Tpu65zfwx4laZa9y91LRIAGbjKgOIednCQCV+9B4rXWtGSLaFKbzAHq5gKFPGDzB/LkXRri7ZrQtmIT25Tclw==
+"@groceristar/pdf-export@^1.0.24":
+  version "1.0.24"
+  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.24.tgz#b7756045337c9bfeabc4371e73a6aad34240af42"
+  integrity sha512-bewxMYMXFGH+ldyvcjc3ft6Vwj7NgxDMtnbtbywufGKlg5ISdYlrAbulH7OTq9vL8pbwtuJ1XRBBhYjZZnPtxQ==
   dependencies:
-    "@groceristar/groceristar-fetch" "^1.1.37"
-    "@react-pdf/renderer" "^1.1.1"
+    "@react-pdf/renderer" "^1.2.0"
     uuid "^3.3.2"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
@@ -936,7 +935,7 @@
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
   integrity sha1-APy5adykzoKgp2c0E63gOeR7Nh4=
 
-"@react-pdf/renderer@^1.1.1", "@react-pdf/renderer@^1.2.0":
+"@react-pdf/renderer@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.2.0.tgz#331744b3daaf7431a7df256b27231923da3b7027"
   integrity sha512-+KFSlzGD7Y6uKQQrrXgPzANA2tnEZ8gE2qK5ZeNQarwwjARbAo02y3x40dH35m6ByC2j6Tr8PSdYbzhw+S+lvg==
