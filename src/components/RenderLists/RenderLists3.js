@@ -10,11 +10,11 @@ import styles from "./StylesRenderLists3";
 
 const ListsDepartment = ({ department, ingredients }) => (
   <View style={styles.main}>
-    <View>
-      <Text style={styles.title}>
-        {department}
-      </Text>
-    </View>
+      <View style={styles.department}>
+        <Text style={styles.title}>
+          {department}
+        </Text>
+      </View>
 
     {/*}<View style={styles.block} > */}
     <List3>
@@ -36,16 +36,14 @@ const ListsDepartment = ({ department, ingredients }) => (
 const RenderLists3 = ({ data }) => {
 
   return (
-    <View>
 
-      {data && data.map(item => (
+      data && data.map(item => (
         <ListsDepartment
           key={uuidv1()}
           department={item.department}
           ingredients={item.ingredients} />
-      ))}
+      ))
 
-    </View>
   );
 
 
