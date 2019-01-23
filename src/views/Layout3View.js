@@ -27,49 +27,6 @@ import { getFullGrocery } from "../selectors/selector";
 
 // Create Document Component
 
-// const styles = StyleSheet.create({
-//   page: {
-//     // flexDirection: 'row',
-//     backgroundColor: '#E4E4E4'
-//   },
-//   // container: {
-//   //   flex: 1,
-//   //   flexDirection: 'row',
-//   //   '@media max-width: 400': {
-//   //     flexDirection: 'column',
-//   //   },
-//   // },
-//   section: {
-//     // margin: 10,
-//     // padding: 10,
-//     // flexGrow: 1
-//   },
-//   direction:{
-//     flexGrow:1,
-//
-//     // flexDirection: 'row'
-//   },
-//   directionColumn:{
-//     flexGrow:1,
-//     flexDirection: 'column'
-//   },
-//   itemContent:{
-//     flexGrow: 1,
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//    backgroundColor: '#e14427',
-//   }
-//   // text: {
-//   //   "font-size": "18px"
-//   // },
-//   // block: {
-//   //     backgroundColor: 'red'
-//   // },
-//   // block1: {
-//   //     backgroundColor: 'green',
-//   //     border: '1 solid purple'
-//   // }
-// });
 
 const styles = StyleSheet.create({
   page: {
@@ -83,8 +40,9 @@ const styles = StyleSheet.create({
       flexDirection: 'column',
     },
   },
-  direction:{
-      flex:1,
+
+  direction: {
+      flex: 1,
     }
 });
 
@@ -102,6 +60,8 @@ const Layout3View = () => {
     <Document>
       <Page size="A4" style={styles.page}>
           <View style={styles.direction} debug={false}>
+
+
             <Text style={styles.text}>
               "19 Gluten-Free Foods Shopping List"
             </Text>
