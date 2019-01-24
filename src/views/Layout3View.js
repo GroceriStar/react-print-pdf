@@ -11,6 +11,9 @@ import {
 
 import { RenderLists3 } from '../components/index'
 
+// this style file related only for rendering preview at React.
+// we don't add styles of our PDF documents here
+import { previewStyles as styles } from './previewStyles'
 
 
 
@@ -27,24 +30,6 @@ import { getFullGrocery } from "../selectors/selector";
 
 // Create Document Component
 
-
-const styles = StyleSheet.create({
-  page: {
-    padding: 30,
-    // backgroundColor:'green'
-  },
-  container: {
-    flex: 1,
-    flexDirection: 'row',
-    '@media max-width: 400': {
-      flexDirection: 'column',
-    },
-  },
-
-  direction: {
-      flex: 1,
-    }
-});
 
 
 const Layout3View = () => {

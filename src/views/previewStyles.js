@@ -2,7 +2,7 @@ import {
   StyleSheet
 } from '@react-pdf/renderer';
 
-const styles = StyleSheet.create({
+const previewStyles = StyleSheet.create({
   page: {
     padding: 30,
     // backgroundColor:'green'
@@ -65,4 +65,4 @@ const styles = StyleSheet.create({
 // });
 
 
-export default defaultStyles;
+export { previewStyles }

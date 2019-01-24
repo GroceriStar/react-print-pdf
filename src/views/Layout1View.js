@@ -11,6 +11,10 @@ import { RenderLists1 } from '../components/index'
 
 // import { RenderLists3 } from './components/index'
 
+// this style file related only for rendering preview at React.
+// we don't add styles of our PDF documents here
+import { previewStyles as styles } from './previewStyles'
+
 
 
 
@@ -28,21 +32,21 @@ import { getFullGrocery } from "../selectors/selector";
 // Create Document Component
 
 
-const styles = StyleSheet.create({
-  page: {
-    padding: 30,
-  },
-  container: {
-    flex: 1,
-    flexDirection: 'row',
-    '@media max-width: 400': {
-      flexDirection: 'column',
-    },
-  },
-  direction:{
-      flex:1,
-    }
-});
+// const styles = StyleSheet.create({
+//   page: {
+//     padding: 30,
+//   },
+//   container: {
+//     flex: 1,
+//     flexDirection: 'row',
+//     '@media max-width: 400': {
+//       flexDirection: 'column',
+//     },
+//   },
+//   direction:{
+//       flex:1,
+//     }
+// });
 
 
 const Layout1View = () => {
@@ -66,7 +70,7 @@ const Layout1View = () => {
             <Text style={styles.text}>
               {data.name}
             </Text>
-            <RenderLists1 data={data}/>
+            <RenderLists1 data={data} />
           </View>
     </Page>
     </Document>
