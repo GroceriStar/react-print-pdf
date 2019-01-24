@@ -7,7 +7,7 @@ import {
 
 // import { RenderLists2 } from '@groceristar/pdf-export';
 import { RenderLists2 } from '../components/index'
-
+import { DocumentLayouts } from '../components/index'
 
 // import { RenderLists3 } from './components/index'
 
@@ -33,21 +33,6 @@ import { getFullGrocery } from "../selectors/selector";
 
 
 
-// const styles = StyleSheet.create({
-//   page: {
-//     padding: 30,
-//   },
-//   container: {
-//     flex: 1,
-//     flexDirection: 'row',
-//     '@media max-width: 400': {
-//       flexDirection: 'column',
-//     },
-//   },
-//   direction:{
-//       flex:1,
-//     }
-// });
 
 
 const Layout2View = () => {
@@ -60,8 +45,8 @@ const Layout2View = () => {
     <Document>
       <Page size="A4" style={styles.page}>
           <View style={styles.direction}>
-            <RenderLists2 data={data} />
-
+            {/*<RenderLists2 data={data} /> */}
+            {DocumentLayouts('PDF2', "Ultimate Grocery List", data)}
           </View>
     </Page>
     </Document>

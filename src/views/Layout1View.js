@@ -6,8 +6,8 @@ import {
 } from '@react-pdf/renderer';
 
 // import { RenderLists1 } from '@groceristar/pdf-export';
-import { RenderLists1 } from '../components/index'
-
+import { RenderLists1 }    from '../components/index'
+import { DocumentLayouts } from '../components/index'
 
 // import { RenderLists3 } from './components/index'
 
@@ -32,22 +32,6 @@ import { getFullGrocery } from "../selectors/selector";
 // Create Document Component
 
 
-// const styles = StyleSheet.create({
-//   page: {
-//     padding: 30,
-//   },
-//   container: {
-//     flex: 1,
-//     flexDirection: 'row',
-//     '@media max-width: 400': {
-//       flexDirection: 'column',
-//     },
-//   },
-//   direction:{
-//       flex:1,
-//     }
-// });
-
 
 const Layout1View = () => {
 
@@ -70,7 +54,10 @@ const Layout1View = () => {
             <Text style={styles.text}>
               {data.name}
             </Text>
-            <RenderLists1 data={data} />
+            {/*}<RenderLists1 data={data} />*/}
+            {DocumentLayouts('PDF1', "Grocery List Essentials", data)}
+
+
           </View>
     </Page>
     </Document>

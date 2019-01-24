@@ -9,7 +9,8 @@ import {
 // import { RenderLists3 } from '@groceristar/pdf-export';
 
 
-import { RenderLists3 } from '../components/index'
+import { RenderLists3 }    from '../components/index'
+import { DocumentLayouts } from '../components/index'
 
 // this style file related only for rendering preview at React.
 // we don't add styles of our PDF documents here
@@ -33,10 +34,11 @@ import { getFullGrocery } from "../selectors/selector";
 
 
 const Layout3View = () => {
-
+  const name = "19 Gluten-Free Foods Shopping List";
+  // const name = "Ultimate Grocery List";
   const data = getFullGrocery(
-    "19 Gluten-Free Foods Shopping List"
-    // "Ultimate Grocery List"
+    name
+
   );
   // console.log(data);
 
@@ -55,6 +57,8 @@ const Layout3View = () => {
             <RenderLists3 data={data} />
 
             {/* <RenderLists3 data={data} /> */}
+
+            {DocumentLayouts('PDF3', name, data)}
           </View>
     </Page>
     <Page size="A4" style={styles.page}>
