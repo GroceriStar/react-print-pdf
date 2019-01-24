@@ -12,3 +12,5 @@ install
 - [ ] Recipe should have white background. And content/description please split into few sentences by "." so it'll look better. Also can be added some spacing. Nothing fancy - just to make it looking not so ugly.
 
 - [ ] Check, didn't our bug was gone with updated version of pdf-render?
+
+- [ ] publish a new version with DocLayouts inside and replace them here. should work or not? Where is the latest version?
