@@ -876,10 +876,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@groceristar/groceristar-fetch@^1.1.59":
-  version "1.1.59"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.59.tgz#60057b0a4e85ec7eb4226f06455d2eedaf9fe715"
-  integrity sha512-sPNQRGs4l5ooabId5M+I9IfdsDUD6UYYJPonmJqLqkVoL0Dr7RX9fK95EHIVjrtMh7feakTlF2wE00c2lu+XSw==
+"@groceristar/groceristar-fetch@^1.1.60":
+  version "1.1.60"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.60.tgz#1ee944a07e34047bb5c467996a41d081615a7f1f"
+  integrity sha512-mUvZF4p68Vo/JNddUxyQibbQ2e5hfxpVWmn+8dpn1T/UPYgRzoO6+5QE3nHWUwiUlWWT6SC95G8fUe/uEEb3+w==
   dependencies:
     dayjs "^1.8.0"
     fs "0.0.1-security"
