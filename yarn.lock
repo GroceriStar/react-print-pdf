@@ -876,13 +876,13 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@groceristar/groceristar-fetch@^1.1.60":
-  version "1.1.60"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.60.tgz#1ee944a07e34047bb5c467996a41d081615a7f1f"
-  integrity sha512-mUvZF4p68Vo/JNddUxyQibbQ2e5hfxpVWmn+8dpn1T/UPYgRzoO6+5QE3nHWUwiUlWWT6SC95G8fUe/uEEb3+w==
+"@groceristar/groceristar-fetch@^1.1.61":
+  version "1.1.61"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.1.61.tgz#5c175bf8ebdb078028865f5f844451e6323ae190"
+  integrity sha512-NWqlxujQk4rYK2hySkZ9zAvDR2wp/T2rfkuFOvtjY+hdxlIIdEfqUXLUlCZLJlG+e1lrhdtq1Bkvu7Dlz1GbGg==
   dependencies:
     dayjs "^1.8.0"
-    fs "0.0.1-security"
+    fs "0.0.2"
     lodash "^4.17.10"
     underscore "^1.9.1"
     uuid "3.3.2"
@@ -4419,10 +4419,10 @@ fs.realpath@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
-fs@0.0.1-security:
-  version "0.0.1-security"
-  resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
-  integrity sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+fs@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.2.tgz#e1f244ef3933c1b2a64bd4799136060d0f5914f8"
+  integrity sha1-4fJE7zkzwbKmS9R5kTYGDQ9ZFPg=
 
 fsevents@1.2.4, fsevents@^1.2.2, fsevents@^1.2.3:
   version "1.2.4"
