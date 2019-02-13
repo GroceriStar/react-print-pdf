@@ -14,3 +14,5 @@ install
 - [ ] Check, didn't our bug was gone with updated version of pdf-render?
 
 - [ ] publish a new version with DocLayouts inside and replace them here. should work or not? Where is the latest version?
+
+[![Build Status](https://travis-ci.org/GroceriStar/react-print-pdf.svg?branch=master)](https://travis-ci.org/GroceriStar/react-print-pdf)
