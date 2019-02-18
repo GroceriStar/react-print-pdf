@@ -6,11 +6,9 @@ import {
   Text, View, Font, Image, StyleSheet
 } from '@react-pdf/renderer';
 
-// import { RenderLists3 } from '@groceristar/pdf-export';
-
-
-import { RenderLists3 }    from '../components/index'
-import { DocumentLayouts } from '../components/index'
+import {
+  DocumentLayouts
+} from '@groceristar/pdf-export';
 
 // this style file related only for rendering preview at React.
 // we don't add styles of our PDF documents here
@@ -44,51 +42,59 @@ const Layout3View = () => {
 
   return (
     <PDFViewer width={1200} height={1000}>
-    <Document>
-      <Page size="A4" style={styles.page}>
-          <View style={styles.direction} debug={false}>
-
-
-            <Text style={styles.text}>
-              "19 Gluten-Free Foods Shopping List"
-            </Text>
-            <RenderLists3 data={data} />
-            <RenderLists3 data={data} />
-            <RenderLists3 data={data} />
-
-            {/* <RenderLists3 data={data} /> */}
-
-            {DocumentLayouts('PDF3', name, data)}
-          </View>
-    </Page>
-    <Page size="A4" style={styles.page}>
-        <View style={styles.direction} debug={false}>
-          <RenderLists3 data={data} />
-          {/* <RenderLists3 data={data} />
-          <RenderLists3 data={data} />
-          <RenderLists3 data={data} /> */}
-        </View>
-  </Page>
-  <Page size="A4" style={styles.page}>
-      <View style={styles.direction} debug={false}>
-        <RenderLists3 data={data} />
-        <RenderLists3 data={data} />
-        <RenderLists3 data={data} />
-        {/* <RenderLists3 data={data} /> */}
-      </View>
-</Page>
-<Page size="A4" style={styles.page}>
-    <View style={styles.direction} debug={false}>
-      <RenderLists3 data={data} />
-      {/* <RenderLists3 data={data} />
-      <RenderLists3 data={data} />
-      <RenderLists3 data={data} /> */}
-    </View>
-</Page>
-    </Document>
+  {DocumentLayouts('PDF3', "Grocery List Essentials", data)}
   </PDFViewer>
   );
 
 }
+
+// return (
+//   <PDFViewer width={1200} height={1000}>
+//   <Document>
+//     <Page size="A4" style={styles.page}>
+//         <View style={styles.direction} debug={false}>
+//
+//
+//           <Text style={styles.text}>
+//             "19 Gluten-Free Foods Shopping List"
+//           </Text>
+//           <RenderLists3 data={data} />
+//           <RenderLists3 data={data} />
+//           <RenderLists3 data={data} />
+//
+//           {/* <RenderLists3 data={data} /> */}
+//
+//           {DocumentLayouts('PDF3', name, data)}
+//         </View>
+//   </Page>
+//   <Page size="A4" style={styles.page}>
+//       <View style={styles.direction} debug={false}>
+//         <RenderLists3 data={data} />
+//         {/* <RenderLists3 data={data} />
+//         <RenderLists3 data={data} />
+//         <RenderLists3 data={data} /> */}
+//       </View>
+// </Page>
+// <Page size="A4" style={styles.page}>
+//     <View style={styles.direction} debug={false}>
+//       <RenderLists3 data={data} />
+//       <RenderLists3 data={data} />
+//       <RenderLists3 data={data} />
+//       {/* <RenderLists3 data={data} /> */}
+//     </View>
+// </Page>
+// <Page size="A4" style={styles.page}>
+//   <View style={styles.direction} debug={false}>
+//     <RenderLists3 data={data} />
+//     {/* <RenderLists3 data={data} />
+//     <RenderLists3 data={data} />
+//     <RenderLists3 data={data} /> */}
+//   </View>
+// </Page>
+//   </Document>
+// </PDFViewer>
+// );
+
+
 
 export default Layout3View;

@@ -6,8 +6,9 @@ import {
 } from '@react-pdf/renderer';
 
 import { getRecipes } from "../selectors/selector";
-
-import { DocumentLayouts } from '../components/index'
+import {
+  DocumentLayouts
+} from '@groceristar/pdf-export';
 
 // this style file related only for rendering preview at React.
 // we don't add styles of our PDF documents here

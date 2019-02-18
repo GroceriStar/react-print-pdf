@@ -5,9 +5,9 @@ import {
   Text, View,Font, Image, StyleSheet
 } from '@react-pdf/renderer';
 
-// import { RenderLists2 } from '@groceristar/pdf-export';
-import { RenderLists2 } from '../components/index'
-import { DocumentLayouts } from '../components/index'
+import {
+  DocumentLayouts
+} from '@groceristar/pdf-export';
 
 // import { RenderLists3 } from './components/index'
 
@@ -42,14 +42,7 @@ const Layout2View = () => {
 
   return (
     <PDFViewer width={1200} height={1000}>
-    <Document>
-      <Page size="A4" style={styles.page}>
-          <View style={styles.direction}>
-            {/*<RenderLists2 data={data} /> */}
-            {DocumentLayouts('PDF2', "Ultimate Grocery List", data)}
-          </View>
-    </Page>
-    </Document>
+    {DocumentLayouts('PDF2', "Grocery List Essentials", data)}
   </PDFViewer>
   );
 

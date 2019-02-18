@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { Button, Icon, Layout, Row, Col, Table } from 'antd';
 import { getRecipes } from '../selectors/selector'
+
 class RecipeLayout extends Component {
 
   render(){
     // const { recipe } = this.props;
+
     const recipe  = getRecipes()[0];
 
     return (
