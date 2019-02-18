@@ -6,7 +6,12 @@ import {
   BrowserRouter, Switch, Route, Link
 } from 'react-router-dom';
 import { Button } from 'antd';
-import { DocumentLayouts, GeneratePDFButton }  from '../components/index';
+
+import {
+  DocumentLayouts, GeneratePDFButton
+} from '@groceristar/pdf-export';
+
+// import { DocumentLayouts, GeneratePDFButton }  from '../components/index';
 import { getFullGrocery, getRecipes } from "../selectors/selector";
 
 class Home extends Component {

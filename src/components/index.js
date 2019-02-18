@@ -1,6 +1,6 @@
-import DownloadPDFLink   from './DownloadPDFLink/DownloadPDFLink';
+// import DownloadPDFLink   from './DownloadPDFLink/DownloadPDFLink';
 
-import GeneratePDFButton from './GeneratePDFButton/GeneratePDFButton';
+// import GeneratePDFButton from './GeneratePDFButton/GeneratePDFButton';
 
 // import DocumentLayouts    from './DocumentLayout/DocumentLayouts';
 
@@ -10,8 +10,8 @@ import RenderLists3       from './RenderLists/RenderLists3';
 import RenderLists4       from './RenderLists/RenderLists4';
 
 export {
-  DownloadPDFLink,
-  GeneratePDFButton,
+  // DownloadPDFLink,
+  // GeneratePDFButton,
   // DocumentLayouts,
 
   // RenderLists1,
