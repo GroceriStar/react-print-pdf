@@ -793,11 +793,12 @@
     underscore "^1.9.1"
     uuid "3.3.2"
 
-"@groceristar/pdf-export@^1.0.26":
-  version "1.0.26"
-  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.26.tgz#070fd0afea9d1d9a615f9d89ba4074144703abc5"
-  integrity sha512-jYRdZ+wlfcJMc1NWj0dTKrk187cDit5ZnUpnZzvqEzaJDjO0ahuZT4k6TZS0XY2C93hVCSl2v8IqJYdMgIwyWw==
+"@groceristar/pdf-export@^1.0.27":
+  version "1.0.27"
+  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.27.tgz#bf3e0a6f3f72be3f850fa970bda54106996a1ac0"
+  integrity sha512-bppbFKLBytDPpVhLz2xF5++bTOrw95CAoaM7Yi/M83wRBVjkTa7J64/v3L4h4WfDnW1RGh4htDwrVJLXVSLCrA==
   dependencies:
+    "@groceristar/groceristar-fetch" "^1.2.2"
     "@react-pdf/renderer" "^1.2.0"
     antd "^3.13.2"
     uuid "^3.3.2"
