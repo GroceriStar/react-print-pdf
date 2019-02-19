@@ -807,10 +807,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@groceristar/groceristar-fetch@^1.2.2":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.2.3.tgz#f34278fbd94ca3ba6a3e508466c6cb4827ec1b07"
-  integrity sha512-kHj0QhJwEs/03hCMXqPGPwJOqEXyJBlV8VskVzuRoVfsB976n3vqspnzguUntoZkpQT6owx0esY/3n2tt3N6XQ==
+"@groceristar/groceristar-fetch@^1.2.2", "@groceristar/groceristar-fetch@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.2.4.tgz#7ee78167f3b49655a2ed0aefcb3a96a20c7e1a4a"
+  integrity sha512-58C8iHe1xfA+DWP8l7SqLajc18ueJxlqkQ7vsz3hwtLw+JQip1HG5+PRoW+PMdpQ8hxAuwH6U/R0qYrC5pihvg==
   dependencies:
     "@groceristar/sd-wrapper" "^1.0.5"
     dayjs "^1.8.0"
