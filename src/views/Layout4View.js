@@ -1,8 +1,9 @@
 import React from 'react';
 
 import {
-  PDFViewer, Document, Page,
-  Text, View, Font, Image, StyleSheet
+  PDFViewer,
+  // Document, Page,
+  // Text, View, Font, Image, StyleSheet
 } from '@react-pdf/renderer';
 
 import { getRecipes } from "../selectors/selector";

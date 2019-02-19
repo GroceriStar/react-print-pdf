@@ -2,8 +2,14 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 
 import {
-  PDFViewer, Document, Page,
-  Text, View, Font, Image, StyleSheet
+  PDFViewer,
+  // Document,
+  // Page,
+  // Text,
+  // View,
+  // Font,
+  // Image,
+  // StyleSheet
 } from '@react-pdf/renderer';
 
 import {
@@ -12,7 +18,7 @@ import {
 
 // this style file related only for rendering preview at React.
 // we don't add styles of our PDF documents here
-import { previewStyles as styles } from './previewStyles'
+// import { previewStyles as styles } from './previewStyles'
 
 
 
