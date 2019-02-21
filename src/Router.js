@@ -11,6 +11,7 @@ import Layout4View from './views/Layout4View'
 import RecipeLayoutView from './views/RecipeLayoutView'
 import Home from './views/Home'
 
+import { MenuPDF } from '@groceristar/antd-showcase-components'
 
 
 class Router extends Component {
@@ -27,10 +28,9 @@ class Router extends Component {
           <Route path="/recipe" exact component={RecipeLayoutView} />
           <Route path="/"       exact component={Home} />
 
-          <Link to="/pdf1" >pdf1 view</Link> <br />
-          <Link to="/pdf2" >pdf2 view</Link> <br />
-          <Link to="/pdf3" >pdf3 view</Link> <br />
-          <Link to="/recipe" >recipe view</Link> <br />
+
+          <MenuPDF />
+
         </Switch>
 
 

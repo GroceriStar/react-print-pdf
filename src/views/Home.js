@@ -5,14 +5,20 @@ import {
 import {
   BrowserRouter, Switch, Route, Link
 } from 'react-router-dom';
+
 import { Button } from 'antd';
 
 import {
   DocumentLayouts, GeneratePDFButton
 } from '@groceristar/pdf-export';
 
+import { MenuPDF } from '@groceristar/antd-showcase-components'
+import "antd/dist/antd.css";
 // import { DocumentLayouts, GeneratePDFButton }  from '../components/index';
 import { getFullGrocery, getRecipes } from "../selectors/selector";
+
+
+
 
 class Home extends Component {
 
