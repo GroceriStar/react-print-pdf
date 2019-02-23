@@ -830,10 +830,10 @@
     antd "^3.13.2"
     uuid "^3.3.2"
 
-"@groceristar/groceristar-fetch@^1.2.2", "@groceristar/groceristar-fetch@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.2.5.tgz#49c792bf63e89e3104b010512cdc3e31dea69cec"
-  integrity sha512-KTHPKnN3ImgdAq+pF4Vh3r10q5flgZyxeSY9mZbbl7imI4m082YdPPOH0TkJi1W3oINjKxCeuk2wy1bZsqBESg==
+"@groceristar/groceristar-fetch@^1.2.2", "@groceristar/groceristar-fetch@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.2.6.tgz#6b8c32359db3e338a0f01f4cfe7bf9036f756a48"
+  integrity sha512-9JqYjyLmY3FtmSiyLfkhTqPgZOxL4FyuKemZ9YroCpfUxaAypQVTiZfvB7FT0t7Evq7OiUFrMDxn9Wgu5OHp0Q==
   dependencies:
     "@groceristar/sd-wrapper" "^1.0.6"
     dayjs "^1.8.0"
