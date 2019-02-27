@@ -807,12 +807,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@groceristar/antd-showcase-components@^1.0.21":
-  version "1.0.21"
-  resolved "https://registry.yarnpkg.com/@groceristar/antd-showcase-components/-/antd-showcase-components-1.0.21.tgz#44b60fff7a452a325b9b0615de8e1f116b446ada"
-  integrity sha512-p3lSOXfAIUZ+ED1luvPF3hshzPAaBTST2+nWUcDl9EXvyRWem0qhRFf1EMHeXEJs/moaJ+k+T/06Ln8B/pyXNg==
+"@groceristar/antd-showcase-components@^1.0.29":
+  version "1.0.29"
+  resolved "https://registry.yarnpkg.com/@groceristar/antd-showcase-components/-/antd-showcase-components-1.0.29.tgz#4f4ac04e35a06417772ce6cf8e1bf89e1be23a58"
+  integrity sha512-iIvX5BpRt1cr/iqZpO5Bbp2Hy5CB5gFOU7525bEtduL3cpESP7DvjYSkLKfIqRFmkRvSWFwqxc/0NPJ80qQz7g==
   dependencies:
-    "@groceristar/cards-wrapper" "^1.0.1"
+    "@groceristar/cards-wrapper" "^1.0.7"
     "@groceristar/grocery-component" "^1.0.6"
     antd "^3.13.2"
     lodash "^4.17.11"
@@ -823,12 +823,13 @@
     reqwest "^2.0.5"
     uuid "^3.3.2"
 
-"@groceristar/cards-wrapper@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.1.tgz#a0106dd5da0c4bc29d5a4b65e917d1cbb2c0efa7"
-  integrity sha512-27NxtBK7NqHJ2Yc4PMp52catUufmrxdjhC4xzIwYUDN7daYMVtzIjXfRpdOCOxIlB4iAtHnmEiwALwfDuWdmZQ==
+"@groceristar/cards-wrapper@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.7.tgz#1245264107892728b963e3bfe167210fe3c3abee"
+  integrity sha512-r3EaXiKliTa4g244Rxot586PVj8HAoRAEQz1YJRBTuuvDkSNXicJimIToe4iSEQuD3vbfRWT03fZlbBlxrgNaw==
   dependencies:
-    antd "^3.13.2"
+    "@react-pdf/renderer" "^1.2.0"
+    antd "^3.13.0"
     uuid "^3.3.2"
 
 "@groceristar/groceristar-fetch@^1.2.2", "@groceristar/groceristar-fetch@^1.2.7":
@@ -1420,7 +1421,7 @@ ant-design-palettes@^1.1.3:
   dependencies:
     tinycolor2 "^1.4.1"
 
-antd@^3.13.2, antd@^3.13.6:
+antd@^3.13.0, antd@^3.13.2, antd@^3.13.6:
   version "3.13.6"
   resolved "https://registry.yarnpkg.com/antd/-/antd-3.13.6.tgz#fe49136416e5e49d80cca95bb2ec2676572afd95"
   integrity sha512-V98EecoaKhHAxulhj07Uy9K4Hxzi+JkmdgYtimZIlaVnAGG3rIfIVgKVkWRK8uHTvvUZJtRIB621BNkhuHW1wQ==
