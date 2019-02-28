@@ -5,7 +5,7 @@
   "dependencies": {
     "@groceristar/antd-showcase-components": "^1.0.30",
     "@groceristar/groceristar-fetch": "^1.2.7",
-    "@groceristar/pdf-export": "^1.0.32",
+    "@groceristar/pdf-export": "^1.0.33",
     "@react-pdf/renderer": "^1.4.0",
     "antd": "^3.13.6",
     "lodash": "^4.17.11",
