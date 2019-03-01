@@ -12,7 +12,8 @@ import {
   DocumentLayouts, GeneratePDFButton
 } from '@groceristar/pdf-export';
 
-import { MenuPDF } from '@groceristar/antd-showcase-components'
+// import { MenuPDF } from '@groceristar/antd-showcase-components'
+
 import "antd/dist/antd.css";
 // import { DocumentLayouts, GeneratePDFButton }  from '../components/index';
 import { getFullGrocery, getRecipes } from "../selectors/selector";
@@ -33,6 +34,7 @@ const data = getRecipes()[0];
       <Link to="/pdf3" >pdf3 view</Link> <br />
       <Link to="/pdf4" >pdf4 view</Link> <br />
       <Link to="/recipe" >recipe view</Link> <br />
+      
       <GeneratePDFButton type={'PDF4'} name={"Grocery List Essentials"} data={data}/>
     </div>
     );

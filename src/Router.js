@@ -6,12 +6,16 @@ import {
 import Layout1View from './views/Layout1View'
 import Layout2View from './views/Layout2View'
 import Layout3View from './views/Layout3View'
+
+
+// are layout4 the same to recipe layout???? I think yes
 import Layout4View from './views/Layout4View'
 
 import RecipeLayoutView from './views/RecipeLayoutView'
+
 import Home from './views/Home'
 
-import { MenuPDF } from '@groceristar/antd-showcase-components'
+// import { MenuPDF } from '@groceristar/antd-showcase-components'
 
 
 class Router extends Component {
@@ -29,7 +33,7 @@ class Router extends Component {
           <Route path="/"       exact component={Home} />
 
 
-          <MenuPDF />
+          {/*}<MenuPDF /> */}
 
         </Switch>
 
