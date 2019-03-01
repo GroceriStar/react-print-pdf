@@ -15,20 +15,20 @@ import {
 import { MenuPDF } from '@groceristar/antd-showcase-components'
 
 import "antd/dist/antd.css";
-// import { DocumentLayouts, GeneratePDFButton }  from '../components/index';
+
 import { getFullGrocery, getRecipes } from "../selectors/selector";
 
 
-
-
-class Home extends Component {
+class HomeView extends Component {
 
   render(){
     // const data = getFullGrocery("Grocery List Essentials");
-const data = getRecipes()[0];
+    const data = getRecipes()[0];
 
     return (
       <div>
+
+      <MenuPDF />
       <Link to="/pdf1" >pdf1 view</Link> <br />
       <Link to="/pdf2" >pdf2 view</Link> <br />
       <Link to="/pdf3" >pdf3 view</Link> <br />
@@ -41,4 +41,4 @@ const data = getRecipes()[0];
   }
 }
 
-export default Home;
+export default HomeView;
