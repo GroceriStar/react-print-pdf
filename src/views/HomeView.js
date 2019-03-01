@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import {
-   PDFDownloadLink
-} from '@react-pdf/renderer';
-import {
   BrowserRouter, Switch, Route, Link
 } from 'react-router-dom';
 
-import { Button } from 'antd';
-
+// import { Button } from 'antd';
 import {
-  DocumentLayouts, GeneratePDFButton
+  // DocumentLayouts,
+  GeneratePDFButton
 } from '@groceristar/pdf-export';
 
 import { MenuPDF } from '@groceristar/antd-showcase-components'
@@ -29,13 +26,17 @@ class HomeView extends Component {
       <div>
 
       <MenuPDF />
-      <Link to="/pdf1" >pdf1 view</Link> <br />
+      {/*}<Link to="/pdf1" >pdf1 view</Link> <br />
       <Link to="/pdf2" >pdf2 view</Link> <br />
       <Link to="/pdf3" >pdf3 view</Link> <br />
       <Link to="/pdf4" >pdf4 view</Link> <br />
       <Link to="/recipe" >recipe view</Link> <br />
+      */}
 
-      <GeneratePDFButton type={'PDF4'} name={"Grocery List Essentials"} data={data}/>
+      <GeneratePDFButton
+        type={'PDF4'}
+        name={"Grocery List Essentials"}
+        data={data} />
     </div>
     );
   }
