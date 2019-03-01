@@ -15,7 +15,7 @@ import RecipeLayoutView from './views/RecipeLayoutView'
 
 import Home from './views/Home'
 
-// import { MenuPDF } from '@groceristar/antd-showcase-components'
+import { MenuPDF } from '@groceristar/antd-showcase-components'
 
 
 class Router extends Component {
