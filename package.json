@@ -7,7 +7,7 @@
     "@groceristar/groceristar-fetch": "^1.2.13",
     "@groceristar/pdf-export": "^1.0.37",
     "@react-pdf/renderer": "^1.4.1",
-    "antd": "^3.14.0",
+    "antd": "^3.15.0",
     "lodash": "^4.17.11",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
