@@ -840,12 +840,24 @@
     react-image "^2.0.0"
     uuid "^3.3.2"
 
-"@groceristar/groceristar-fetch@^1.2.13", "@groceristar/groceristar-fetch@^1.2.17":
+"@groceristar/groceristar-fetch@^1.2.17":
   version "1.2.17"
   resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.2.17.tgz#cd0e06df9364cef0b7f3b8d4c8d5bebbd62a06fc"
   integrity sha512-Y1JCY1oeFHec4W6cXObEdM+dByAy4VcCT4iqish6HWcSUXqwbQJ0UwPrUjW6WgS28CCUadRuK/tKe+bEcRq4yw==
   dependencies:
     "@groceristar/sd-wrapper" "^1.0.15"
+    dayjs "^1.8.0"
+    fs "0.0.2"
+    lodash "^4.17.10"
+    underscore "^1.9.1"
+    uuid "3.3.2"
+
+"@groceristar/groceristar-fetch@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.0.1.tgz#3bef666b3c86678be9bda87c47e5749a4e51ce64"
+  integrity sha512-Ey87SbqvjXkln++lgxhdMrED/c1OYDjVJGatfxoFnJ969lepp2b9qpIeN6xstc1vurzgt2aPJjf7XV35H7m6OA==
+  dependencies:
+    "@groceristar/sd-wrapper" "^2.0.0"
     dayjs "^1.8.0"
     fs "0.0.2"
     lodash "^4.17.10"
@@ -859,12 +871,12 @@
   dependencies:
     uuid "^3.3.2"
 
-"@groceristar/pdf-export@^1.0.38":
-  version "1.0.38"
-  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.38.tgz#66b584b3d6facb6bec7e3c6a017cbf6fdb91ffa3"
-  integrity sha512-8FmSH37DYXgPkUcUH0Dzx5fR43Ba6OTrScwCg5CU5lenJA1o68XHX/txFIWWYoCjfxXOqKqv73OespV1fm0Nlw==
+"@groceristar/pdf-export@^1.0.40":
+  version "1.0.40"
+  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.40.tgz#f6d60103082023259c4931d4a2abe3b1ab0a2b47"
+  integrity sha512-MxqSWJZ3MAVinNPPaOYdQdyqfn4YWhhlsD/7jTTHnw37Gv4Uipc8LcX4rXgWugSQQkxKPC6Z2QRAUk9SjdfT4g==
   dependencies:
-    "@groceristar/groceristar-fetch" "^1.2.13"
+    "@groceristar/groceristar-fetch" "^2.0.1"
     "@react-pdf/renderer" "^1.4.1"
     antd "^3.15.0"
     uuid "^3.3.2"
@@ -875,6 +887,14 @@
   integrity sha512-TpWbb5uFdyaYy56rOYEGrzHGY8Mm58jAYUaJzfeEHSo7H3+MGCXh6iP6r9pJMe/BXjwqct6BsEPqQFetk3w6xg==
   dependencies:
     fs "^0.0.1-security"
+    path "^0.12.7"
+    uuid "^3.3.2"
+
+"@groceristar/sd-wrapper@^2.0.0":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-2.0.2.tgz#0b4ec2f38c5d0e459dc016246e94820f1428f5d4"
+  integrity sha512-qr45p0DR/f2mnFRK9lmB4UPDgZ8pSR1RMDPXaWW/YNbuOyvN6XPShnmEA+LYzdIviSdEeGYdKlLeEl3tNp59Ig==
+  dependencies:
     path "^0.12.7"
     uuid "^3.3.2"
 
