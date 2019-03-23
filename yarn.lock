@@ -919,10 +919,10 @@
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
   integrity sha1-APy5adykzoKgp2c0E63gOeR7Nh4=
 
-"@react-pdf/renderer@^1.2.0", "@react-pdf/renderer@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.4.1.tgz#859ff9bf146db791b780cbb1b407896ca6fc0383"
-  integrity sha512-hxfUdcYExNGhfPX+IEkw+s64jkzuPYxJ8r4WLNVZOWjclvwOVr4laOQXPxBqhbKMI8U4Wr3UXFWclATs2T9HCg==
+"@react-pdf/renderer@^1.2.0", "@react-pdf/renderer@^1.4.1", "@react-pdf/renderer@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.4.2.tgz#3983521c0909353b29a5fe70185b9040f520285a"
+  integrity sha512-sgubvcok0wa0oVhreh8Oe2u/1TLCtPfGHNJtdNW50I4j8gQKXYKyV8rd6WwD3DO2xSkjbTRZ940DnhFHFw2I/A==
   dependencies:
     "@babel/runtime" "^7.3.1"
     "@react-pdf/fontkit" "^1.13.0"
@@ -936,7 +936,7 @@
     blob-stream "^0.1.3"
     cross-fetch "^3.0.1"
     emoji-regex "^7.0.3"
-    hyphen "^1.1.0"
+    hyphen "^1.1.1"
     is-url "^1.2.4"
     lodash.groupby "^4.6.0"
     lodash.isfunction "^3.0.9"
@@ -5043,10 +5043,10 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-hyphen@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/hyphen/-/hyphen-1.1.0.tgz#30468e0265ce4cee339d0279a15d174b7a40376b"
-  integrity sha512-dVl15hBzRtvjcKnGBuS1NBtedepXgBwoOz6kByHiw6AdVq9Uh3arIe+o8gHIrkMVCohZovhp6u9iV1rnVqgyPA==
+hyphen@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/hyphen/-/hyphen-1.1.1.tgz#bb0b4054788476ab13bdbaed221a6d4c67353068"
+  integrity sha512-S6KSoGZWPutjTB7koZ9Ci9xzETBa7GVlNe42r0hF+rhoE/6lLHwEvi2FQSEhyWIjVo46tV94vn96hcsuum1THg==
 
 iconv-lite@0.4.23:
   version "0.4.23"
