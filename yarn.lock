@@ -840,7 +840,7 @@
     react-image "^2.0.0"
     uuid "^3.3.2"
 
-"@groceristar/groceristar-fetch@^2.0.1", "@groceristar/groceristar-fetch@^2.0.3":
+"@groceristar/groceristar-fetch@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.0.3.tgz#a32c049ec10d1e18cc63e106cef947a5e0159a02"
   integrity sha512-Jyv46yhZ31bBXiITCc6769PN+dm00ZSPyC1PGxlX/zDe+0Q2sj44dKRu9H0hn1hVZuokk6yexlQGuBtSztwNDw==
@@ -859,12 +859,11 @@
   dependencies:
     uuid "^3.3.2"
 
-"@groceristar/pdf-export@^1.0.40":
-  version "1.0.40"
-  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.40.tgz#f6d60103082023259c4931d4a2abe3b1ab0a2b47"
-  integrity sha512-MxqSWJZ3MAVinNPPaOYdQdyqfn4YWhhlsD/7jTTHnw37Gv4Uipc8LcX4rXgWugSQQkxKPC6Z2QRAUk9SjdfT4g==
+"@groceristar/pdf-export@^1.0.41":
+  version "1.0.41"
+  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.41.tgz#f710f8fbd95e953db74392ee34debc92001e823e"
+  integrity sha512-8mAYeBPZDJ8tWoLapblkMRYZm2cfhf2Dvj7IAVY5z1v3shDaaFSN0gC0RmfBUrYBWGdYdURTVUgPMAy/CS6QXw==
   dependencies:
-    "@groceristar/groceristar-fetch" "^2.0.1"
     "@react-pdf/renderer" "^1.4.1"
     antd "^3.15.0"
     uuid "^3.3.2"
