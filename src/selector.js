@@ -1,7 +1,10 @@
-import {
-  groceristar,
-  chickenKyiv
-} from "@groceristar/groceristar-fetch";
+// import {
+//   groceristar,
+//   // chickenKyiv
+// } from "@groceristar/groceristar-fetch";
+
+import eee from "@groceristar/groceristar-fetch";
+console.log(eee);
 
 function getGroceryById( id ) {
   return groceristar.getGroceryById(id);
