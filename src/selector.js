@@ -1,6 +1,6 @@
 import {
   groceristar,
-  chickenKyiv 
+  chickenKyiv
 } from "@groceristar/groceristar-fetch";
 
 function getGroceryById( id ) {
@@ -19,6 +19,7 @@ function getAllGrocery(){
   return groceristar.getAllGrocery();
 }
 
+// @TODO move out to fetch plugin?
 function getGroceryDataFromId(id){
 
   console.log(getGroceryById(id));
