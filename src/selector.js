@@ -1,4 +1,7 @@
-import { groceristar, chickenKyiv } from "@groceristar/groceristar-fetch";
+import {
+  groceristar,
+  chickenKyiv 
+} from "@groceristar/groceristar-fetch";
 
 function getGroceryById( id ) {
   return groceristar.getGroceryById(id);
