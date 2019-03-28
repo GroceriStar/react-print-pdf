@@ -840,10 +840,10 @@
     react-image "^2.0.0"
     uuid "^3.3.2"
 
-"@groceristar/groceristar-fetch@^2.0.11":
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.0.11.tgz#6f152a2fb877baee9b6a3bbd643ea91bb54e992d"
-  integrity sha512-F3ZxgOA8/gL6Zlz5EGaZbG51e982MrUBHeTsWNAkDnTx+uaFQwGnMWxnHg+lqdHxjkuriCb+A46bHVs1Xu1smA==
+"@groceristar/groceristar-fetch@^2.0.12":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.0.12.tgz#e951558d8ed12cb454de7f6a902f32966fa359cb"
+  integrity sha512-BjDLlR/ciEgCOpxo6eYZIkiAw9VVG04kuo0oO0/WOljS1VgNI6XbK4OGzEnsc1ia0yvruBXIGqGbpbN5yHQAmw==
   dependencies:
     "@groceristar/sd-wrapper" "^2.0.7"
     dayjs "^1.8.0"

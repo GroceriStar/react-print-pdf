@@ -13,7 +13,7 @@ import {
 
 import "antd/dist/antd.css";
 
-import { getFullGrocery, getRecipes } from "../selectors/selector";
+import { getFullGrocery, getRecipes } from "../selector";
 
 
 class HomeView extends Component {

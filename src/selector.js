@@ -11,8 +11,8 @@ function getGroceryById( id ) {
 }
 
 function getFullGrocery( name ) {
-  return groceristargetGroceryByNameWithDepAndIngKey(name);
-  // return groceristar.getGroceryByNameWithDepAndIng(name);
+  // return groceristar.getGroceryByNameWithDepAndIngKey(name);
+  return groceristar.getGroceryByNameWithDepAndIng(name);
 }
 
 function getGroceryCollection(){
@@ -30,6 +30,7 @@ function getGroceryDataFromId(id){
   let grocery     = getGroceryById(id)[0];
   let groceryName = grocery.name;
   let groceryWithDepAndIng = getFullGrocery(groceryName);
+
   return {
     'name': groceryName,
     'items': groceryWithDepAndIng
@@ -62,6 +63,10 @@ function getRecipeChickenKyivById(id) {
   return chickenKyiv.getRecipe()[id];
 }
 
+function getRecipes() {
+  return chickenKyiv.getRecipe();
+}
+
 export {
   getGroceryById,
   getFullGrocery,
@@ -69,11 +74,13 @@ export {
   getGroceryCollection,
   getAllGrocery,
 
+
   getRandomRecipe,
   getFirstFiveRecipes,
   getFiveRandomIngredients,
   getRecipeChickenKyivById,
-  getShowcaseFiveRecipes
+  getShowcaseFiveRecipes,
+  getRecipes,
 
 
 }
