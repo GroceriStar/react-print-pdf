@@ -26,7 +26,7 @@ import { previewStyles as styles } from './previewStyles'
 
 
 
-import { getFullGrocery } from "../selectors/selector";
+import { getFullGrocery } from "../selector";
 
 
 

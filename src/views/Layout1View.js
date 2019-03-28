@@ -21,7 +21,7 @@ import { previewStyles as styles } from './previewStyles'
 // import Fractal from './fractals/Fractal';
 
 
-import { getFullGrocery } from "../selectors/selector";
+import { getFullGrocery } from "../selector";
 
 // Create Document Component
 

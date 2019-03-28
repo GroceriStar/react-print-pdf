@@ -6,7 +6,7 @@ import {
   // Text, View, Font, Image, StyleSheet
 } from '@react-pdf/renderer';
 
-import { getRecipes } from "../selectors/selector";
+import { getRecipes } from "../selector";
 import {
   DocumentLayouts
 } from '@groceristar/pdf-export';

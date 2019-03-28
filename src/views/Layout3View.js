@@ -29,7 +29,7 @@ import {
 
 
 
-import { getFullGrocery } from "../selectors/selector";
+import { getFullGrocery } from "../selector";
 
 // console.log(styles)
 

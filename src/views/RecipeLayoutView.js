@@ -15,7 +15,7 @@ import RenderLists3 from '@groceristar/pdf-export';
 // Create styles
 // import styles from './styles'
 
-import { getFullGrocery } from "../selectors/selector";
+import { getFullGrocery } from "../selector";
 
 // console.log(styles)
 const data = getFullGrocery("19 Gluten-Free Foods Shopping List");

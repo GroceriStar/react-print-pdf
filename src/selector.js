@@ -11,7 +11,8 @@ function getGroceryById( id ) {
 }
 
 function getFullGrocery( name ) {
-  return groceristar.getGroceryByNameWithDepAndIng(name);
+  return groceristargetGroceryByNameWithDepAndIngKey(name);
+  // return groceristar.getGroceryByNameWithDepAndIng(name);
 }
 
 function getGroceryCollection(){
