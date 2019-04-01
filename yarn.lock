@@ -746,9 +746,9 @@
     react-image "^2.0.0"
     uuid "^3.3.2"
 
-"@groceristar/groceristar-fetch@^2.0.14":
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.0.14.tgz#0b3407644b1b220d7ffbbd5a1fc71a2447eda1ab"
+"@groceristar/groceristar-fetch@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.2.tgz#ea386b3096e5e442d1bec4b4b6113b7d3db42a43"
   dependencies:
     "@groceristar/sd-wrapper" "^2.0.7"
     dayjs "^1.8.0"
@@ -763,7 +763,7 @@
   dependencies:
     uuid "^3.3.2"
 
-"@groceristar/pdf-export@^1.0.40":
+"@groceristar/pdf-export@^1.0.43":
   version "1.0.43"
   resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.43.tgz#f50d9ab91395c1ab6e49db721730027a2028966f"
   dependencies:
