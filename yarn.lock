@@ -746,12 +746,12 @@
     react-image "^2.0.0"
     uuid "^3.3.2"
 
-"@groceristar/groceristar-fetch@^2.1.7":
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.7.tgz#0503130a92d714b8158382365f3311626ad7d77b"
+"@groceristar/groceristar-fetch@^2.1.8":
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.8.tgz#937f0054c5db354b5a0f675c2b608380e87aee7d"
   dependencies:
-    "@groceristar/sd-wrapper" "^2.0.9"
-    dayjs "^1.8.0"
+    "@groceristar/sd-wrapper" "^3.0.0"
+    dayjs "^1.8.12"
     fs "0.0.2"
     lodash "^4.17.10"
     underscore "^1.9.1"
@@ -771,9 +771,9 @@
     antd "^3.15.0"
     uuid "^3.3.2"
 
-"@groceristar/sd-wrapper@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-2.0.9.tgz#b9351afd0ad04d30cfad422a574337155a0eba9e"
+"@groceristar/sd-wrapper@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-3.0.0.tgz#e75c14a2aca98783898626399058895a815513a0"
   dependencies:
     path "^0.12.7"
     uuid "^3.3.2"
@@ -2814,9 +2814,9 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-dayjs@^1.8.0:
-  version "1.8.6"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.6.tgz#b7a8ccfef173dae03e83a05a58788c9dbe948a35"
+dayjs@^1.8.12:
+  version "1.8.12"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.12.tgz#f9610fb9b115aa2fe2a07e742c130df418cee76a"
 
 debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
