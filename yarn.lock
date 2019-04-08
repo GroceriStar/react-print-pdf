@@ -763,12 +763,12 @@
   dependencies:
     uuid "^3.3.2"
 
-"@groceristar/pdf-export@^1.0.44":
-  version "1.0.44"
-  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.44.tgz#af885822f14ca2dc50853671d06e35bdf4a7d5a4"
+"@groceristar/pdf-export@^1.0.45":
+  version "1.0.45"
+  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.45.tgz#36e889c1cf674b70c7d9d89b8c9b08bf271d2167"
   dependencies:
-    "@react-pdf/renderer" "^1.4.1"
-    antd "^3.15.0"
+    "@react-pdf/renderer" "^1.4.2"
+    antd "^3.16.1"
     uuid "^3.3.2"
 
 "@groceristar/sd-wrapper@^3.0.0":
@@ -814,7 +814,7 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
 
-"@react-pdf/renderer@^1.2.0", "@react-pdf/renderer@^1.4.1", "@react-pdf/renderer@^1.4.2":
+"@react-pdf/renderer@^1.2.0", "@react-pdf/renderer@^1.4.2":
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.4.2.tgz#3983521c0909353b29a5fe70185b9040f520285a"
   dependencies:
@@ -1268,7 +1268,7 @@ ant-design-palettes@^1.1.3:
   dependencies:
     tinycolor2 "^1.4.1"
 
-antd@^3.13.2, antd@^3.13.6, antd@^3.15.0, antd@^3.16.1:
+antd@^3.13.2, antd@^3.13.6, antd@^3.16.1:
   version "3.16.1"
   resolved "https://registry.yarnpkg.com/antd/-/antd-3.16.1.tgz#1d253931fc33e960f22025bef2d5c1548116ec6c"
   dependencies:
