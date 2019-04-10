@@ -814,9 +814,9 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
 
-"@react-pdf/renderer@^1.2.0", "@react-pdf/renderer@^1.4.2", "@react-pdf/renderer@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.5.0.tgz#0c33c7e6dec111dbae7a058ec442e7f718662a25"
+"@react-pdf/renderer@^1.2.0", "@react-pdf/renderer@^1.4.2", "@react-pdf/renderer@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.5.1.tgz#a872332394bac17256f90bb9b74fa67cbebd4d45"
   dependencies:
     "@babel/runtime" "^7.3.1"
     "@react-pdf/fontkit" "^1.13.0"
@@ -827,13 +827,9 @@
     cross-fetch "^3.0.1"
     emoji-regex "^7.0.3"
     is-url "^1.2.4"
-    lodash.groupby "^4.6.0"
-    lodash.isfunction "^3.0.9"
-    lodash.merge "^4.6.1"
-    lodash.pick "^4.4.0"
-    lodash.topairsin "^4.3.0"
     media-engine "^1.0.3"
     page-wrapping "^1.1.0"
+    ramda "^0.26.1"
     react "^16.8.3"
     react-reconciler "^0.20.1"
     yoga-layout-prebuilt "^1.9.3"
@@ -5558,10 +5554,6 @@ lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
 
-lodash.groupby@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.groupby/-/lodash.groupby-4.6.0.tgz#0b08a1dcf68397c397855c3239783832df7403d1"
-
 lodash.isarguments@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz#2f573d85c6a24289ff00663b491c1d338ff3458a"
@@ -5569,10 +5561,6 @@ lodash.isarguments@^3.0.0:
 lodash.isarray@^3.0.0:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/lodash.isarray/-/lodash.isarray-3.0.4.tgz#79e4eb88c36a8122af86f844aa9bcd851b5fbb55"
-
-lodash.isfunction@^3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/lodash.isfunction/-/lodash.isfunction-3.0.9.tgz#06de25df4db327ac931981d1bdb067e5af68d051"
 
 lodash.keys@^3.1.2:
   version "3.1.2"
@@ -5585,14 +5573,6 @@ lodash.keys@^3.1.2:
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
-
-lodash.merge@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.1.tgz#adc25d9cb99b9391c59624f379fbba60d7111d54"
-
-lodash.pick@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
 
 lodash.sortby@^4.7.0:
   version "4.7.0"
@@ -5618,10 +5598,6 @@ lodash.templatesettings@^4.0.0:
 lodash.throttle@^4.0.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
-
-lodash.topairsin@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/lodash.topairsin/-/lodash.topairsin-4.3.0.tgz#1a6966d46484898fca42522286f1529a4397ad3b"
 
 lodash.uniq@^4.5.0:
   version "4.5.0"
