@@ -1032,11 +1032,11 @@
   dependencies:
     uuid "^3.3.2"
 
-"@groceristar/pdf-export@^1.0.45":
-  version "1.0.45"
-  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.0.45.tgz#36e889c1cf674b70c7d9d89b8c9b08bf271d2167"
+"@groceristar/pdf-export@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.1.0.tgz#e08eb51024f9545cb66e6894cc1c95e851ef14d5"
   dependencies:
-    "@react-pdf/renderer" "^1.4.2"
+    "@react-pdf/renderer" "^1.5.1"
     antd "^3.16.1"
     uuid "^3.3.2"
 
@@ -1261,7 +1261,7 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
 
-"@react-pdf/renderer@^1.2.0", "@react-pdf/renderer@^1.4.2", "@react-pdf/renderer@^1.5.4":
+"@react-pdf/renderer@^1.2.0", "@react-pdf/renderer@^1.5.1", "@react-pdf/renderer@^1.5.4":
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.5.4.tgz#b6accd1b693ecacb9c39c080b44894989f0de679"
   dependencies:
