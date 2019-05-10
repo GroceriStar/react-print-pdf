@@ -9,7 +9,7 @@ import {
   GeneratePDFButton
 } from '@groceristar/pdf-export';
 
-// import { MenuPDF } from '@groceristar/antd-showcase-components'
+import { MenuPDF } from '@groceristar/antd-showcase-components'
 
 import "antd/dist/antd.css";
 
@@ -25,13 +25,13 @@ class HomeView extends Component {
     return (
       <div>
 
-    {/*<MenuPDF /> */}
-      {/*}<Link to="/pdf1" >pdf1 view</Link> <br />
-      <Link to="/pdf2" >pdf2 view</Link> <br />
-      <Link to="/pdf3" >pdf3 view</Link> <br />
-      <Link to="/pdf4" >pdf4 view</Link> <br />
-      <Link to="/recipe" >recipe view</Link> <br />
-      */}
+        <MenuPDF />
+        <Link to="/pdf1" >pdf1 view</Link> <br />
+        <Link to="/pdf2" >pdf2 view</Link> <br />
+        <Link to="/pdf3" >pdf3 view</Link> <br />
+        <Link to="/pdf4" >pdf4 view</Link> <br />
+        <Link to="/recipe" >recipe view</Link> <br />
+        
 
       <GeneratePDFButton
         type={'PDF4'}
