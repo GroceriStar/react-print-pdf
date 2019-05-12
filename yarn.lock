@@ -1261,15 +1261,15 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
 
-"@react-pdf/renderer@^1.2.0", "@react-pdf/renderer@^1.5.1", "@react-pdf/renderer@^1.5.4":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.5.4.tgz#b6accd1b693ecacb9c39c080b44894989f0de679"
+"@react-pdf/renderer@^1.2.0", "@react-pdf/renderer@^1.5.1", "@react-pdf/renderer@^1.5.5":
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.5.5.tgz#7c95df588f906c2fbf63545bb0c5f4393c2c690d"
   dependencies:
     "@babel/runtime" "^7.3.1"
     "@react-pdf/fontkit" "^1.13.0"
     "@react-pdf/pdfkit" "^1.2.0"
     "@react-pdf/png-js" "^1.0.0"
-    "@react-pdf/textkit" "^0.3.6"
+    "@react-pdf/textkit" "^0.3.7"
     blob-stream "^0.1.3"
     cross-fetch "^3.0.2"
     emoji-regex "^8.0.0"
@@ -1281,9 +1281,9 @@
     react-reconciler "^0.20.4"
     yoga-layout-prebuilt "^1.9.3"
 
-"@react-pdf/textkit@^0.3.6":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@react-pdf/textkit/-/textkit-0.3.6.tgz#6619b960e8c5c61800c0e55bb5a0ccb85da2e5ed"
+"@react-pdf/textkit@^0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@react-pdf/textkit/-/textkit-0.3.7.tgz#67bcc4d952ad1cd738b3cb38c8396219450f536b"
   dependencies:
     "@babel/runtime" "^7.4.3"
     "@react-pdf/unicode-properties" "^2.2.0"
