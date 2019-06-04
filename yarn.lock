@@ -1038,9 +1038,9 @@
   dependencies:
     uuid "^3.3.2"
 
-"@groceristar/pdf-export@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.1.0.tgz#e08eb51024f9545cb66e6894cc1c95e851ef14d5"
+"@groceristar/pdf-export@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@groceristar/pdf-export/-/pdf-export-1.2.0.tgz#22d8b3c45fafd290df1830add6a8963caf0c7147"
   dependencies:
     "@react-pdf/renderer" "^1.5.1"
     antd "^3.16.1"
