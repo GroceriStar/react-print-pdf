@@ -23,11 +23,11 @@ class Router extends Component {
 
 
         <Switch>
-          <Route path="/pdf1"   exact component={Layout1View} />
+          {/* <Route path="/pdf1"   exact component={Layout1View} />
           <Route path="/pdf2"   exact component={Layout2View} />
           <Route path="/pdf3"   exact component={Layout3View} />
           <Route path="/pdf4"   exact component={Layout4View} />
-          <Route path="/recipe" exact component={RecipeLayoutView} />
+          <Route path="/recipe" exact component={RecipeLayoutView} /> */}
           
           <Route path="/"       exact component={HomeView} />
 
