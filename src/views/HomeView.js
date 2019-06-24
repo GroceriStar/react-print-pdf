@@ -28,12 +28,12 @@ class HomeView extends Component {
         {/* <HeaderShowcase /> */}
         {/* <HeaderRecipes /> */}
         {/* <Header /> */}
-        <Link to="/pdf1" >pdf1 view</Link> <br />
-        <Link to="/pdf2" >pdf2 view</Link> <br />
-        <Link to="/pdf3" >pdf3 view</Link> <br />
-        <Link to="/pdf4" >pdf4 view</Link> <br />
-        <Link to="/recipe" >recipe view</Link> <br />
-        
+        // <Link to="/pdf1" >pdf1 view</Link> <br />
+        // <Link to="/pdf2" >pdf2 view</Link> <br />
+        // <Link to="/pdf3" >pdf3 view</Link> <br />
+        // <Link to="/pdf4" >pdf4 view</Link> <br />
+        // <Link to="/recipe" >recipe view</Link> <br />
+
 
       {/* <GeneratePDFButton
         type={'PDF4'}
