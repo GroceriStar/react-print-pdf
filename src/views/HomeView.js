@@ -27,7 +27,7 @@ class HomeView extends Component {
 
         {/* <HeaderShowcase /> */}
         {/* <HeaderRecipes /> */}
-        <Header />
+        {/* <Header /> */}
         <Link to="/pdf1" >pdf1 view</Link> <br />
         <Link to="/pdf2" >pdf2 view</Link> <br />
         <Link to="/pdf3" >pdf3 view</Link> <br />
