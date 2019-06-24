@@ -1,17 +1,17 @@
-// import {
-//   groceristar,
-//   chickenKyiv
-// } from "@groceristar/groceristar-fetch";
-
-import
-  groceristar
-
- from "@groceristar/groceristar-fetch/groceristar";
-
-import
-
+import {
+  groceristar,
   chickenKyiv
- from "@groceristar/groceristar-fetch/chickenKyiv";
+} from "@groceristar/groceristar-fetch";
+
+// import
+  // groceristar
+
+ // from "@groceristar/groceristar-fetch/groceristar";
+
+// import
+
+  // chickenKyiv
+ // from "@groceristar/groceristar-fetch/chickenKyiv";
 
 // import eee from "@groceristar/groceristar-fetch";
 // console.log(eee);
@@ -57,8 +57,8 @@ function getGroceryDataFromId(id){
 //----------
 
 function getRandomRecipe(){
-  // return chickenKyiv.getRandomRecipe()
-  return ""
+  return chickenKyiv.getRandomRecipe()
+  // return ""
 }
 
 function getFirstFiveRecipes(){
