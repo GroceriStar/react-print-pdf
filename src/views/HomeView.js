@@ -9,23 +9,25 @@ import {
   GeneratePDFButton
 } from '@groceristar/pdf-export';
 
-import { MenuPDF } from '@groceristar/antd-showcase-components'
+import { MenuPDF, HeaderShowcase, HeaderRecipes, Header } from '@groceristar/antd-showcase-components'
 
 import "antd/dist/antd.css";
 
-import { getFullGrocery, getRecipes } from "../selector";
-
+// import { getFullGrocery, getRecipes } from "../selector";
+// import Header from './Header'
 
 class HomeView extends Component {
 
   render(){
     // const data = getFullGrocery("Grocery List Essentials");
-    const data = getRecipes()[0];
+    // const data = getRecipes()[0];
 
     return (
       <div>
 
-        <MenuPDF />
+        {/* <HeaderShowcase /> */}
+        {/* <HeaderRecipes /> */}
+        <Header />
         <Link to="/pdf1" >pdf1 view</Link> <br />
         <Link to="/pdf2" >pdf2 view</Link> <br />
         <Link to="/pdf3" >pdf3 view</Link> <br />
@@ -33,10 +35,10 @@ class HomeView extends Component {
         <Link to="/recipe" >recipe view</Link> <br />
         
 
-      <GeneratePDFButton
+      {/* <GeneratePDFButton
         type={'PDF4'}
         name={"Grocery List Essentials"}
-        data={data} />
+        data={data} /> */}
     </div>
     );
   }
