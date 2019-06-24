@@ -1,46 +1,56 @@
-import {
-  groceristar,
+// import {
+//   groceristar,
+//   chickenKyiv
+// } from "@groceristar/groceristar-fetch";
+
+import
+  groceristar
+
+ from "@groceristar/groceristar-fetch/groceristar";
+
+import
+
   chickenKyiv
-} from "@groceristar/groceristar-fetch";
+ from "@groceristar/groceristar-fetch/chickenKyiv";
 
 // import eee from "@groceristar/groceristar-fetch";
 // console.log(eee);
 // console.log(groceristar);
 
 function getGroceryById( id ) {
-  // return groceristar.getGroceryById(id);
-  return ""
+  return groceristar.getGroceryById(id);
+  // return ""
 }
 
 function getFullGrocery( name ) {
-  // return groceristar.getGroceryByNameWithDepAndIngKey(name);
+  return groceristar.getGroceryByNameWithDepAndIngKey(name);
   // return groceristar.getGroceryByNameWithDepAndIng(name);
-  return ""
+  // return ""
 }
 
 function getGroceryCollection(){
-  // return groceristar.getGroceryShowcase();
-  return ""
+  return groceristar.getGroceryShowcase();
+  // return ""
 }
 
 function getAllGrocery(){
-  // return groceristar.getAllGrocery();
-  return ""
+  return groceristar.getAllGrocery();
+  // return ""
 }
 
 // @TODO move out to fetch plugin?
 function getGroceryDataFromId(id){
 
   // console.log(getGroceryById(id));
-  // let grocery     = getGroceryById(id)[0];
-  // let groceryName = grocery.name;
-  // let groceryWithDepAndIng = getFullGrocery(groceryName);
+  let grocery     = getGroceryById(id)[0];
+  let groceryName = grocery.name;
+  let groceryWithDepAndIng = getFullGrocery(groceryName);
 
-  // return {
-  //   'name': groceryName,
-  //   'items': groceryWithDepAndIng
-  // };
-  return ""
+  return {
+    'name': groceryName,
+    'items': groceryWithDepAndIng
+  };
+  // return ""
 }
 
 
@@ -52,31 +62,31 @@ function getRandomRecipe(){
 }
 
 function getFirstFiveRecipes(){
-  // return chickenKyiv.getFirstFiveRecipes();
-  return ""
+  return chickenKyiv.getFirstFiveRecipes();
+  // return ""
 }
 
 
 function getShowcaseFiveRecipes(){
-  // return chickenKyiv.getShowcaseFiveRecipes();
-  return ""
+  return chickenKyiv.getShowcaseFiveRecipes();
+  // return ""
 }
 
 
 function getFiveRandomIngredients(){
-  // return chickenKyiv.getFiveRandomIngredients();
-  return ""
+  return chickenKyiv.getFiveRandomIngredients();
+  // return ""
 }
 
 //@TODO i don't like this name too
 function getRecipeChickenKyivById(id) {
-  // return chickenKyiv.getRecipe()[id];
-  return ""
+  return chickenKyiv.getRecipe()[id];
+  // return ""
 }
 
 function getRecipes() {
-  // return chickenKyiv.getRecipe();
-  return ""
+  return chickenKyiv.getRecipe();
+  // return ""
 }
 
 export {

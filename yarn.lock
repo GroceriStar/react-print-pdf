@@ -981,7 +981,7 @@
     react-image "^2.1.1"
     uuid "^3.3.2"
 
-"@groceristar/groceristar-fetch@^2.1.8":
+"@groceristar/groceristar-fetch@^2.0.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.2.0.tgz#878b758e41f11cb56eac38c66f2cce80cbc88b21"
   integrity sha512-bXONGexZ5eZaPHPNAxILYZJwDke0FUDlAgywW0hl05Wd+hCc2gkFYhCE/eRq9Z5+d+f28/sIVSrgH+l7SVye2w==
