@@ -981,10 +981,10 @@
     react-image "^2.1.1"
     uuid "^3.3.2"
 
-"@groceristar/fetch-grocery-list@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@groceristar/fetch-grocery-list/-/fetch-grocery-list-0.1.0.tgz#ad7785368736870b159a7230c06f63f2bb4f595e"
-  integrity sha512-1lEfJsSvLl/gb3KGGLY1WvkuBQlxVeT/Y5peQ/Go90gouV+IdbOs/FD8VzEEDQGH2NwzSNrBO9f/QoDTzLDd8Q==
+"@groceristar/fetch-grocery-list@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@groceristar/fetch-grocery-list/-/fetch-grocery-list-0.1.1.tgz#ca908fe9175c0788e21585847f9725bcd8c7596c"
+  integrity sha512-F4qGnpN0vXXDvgG9q+PnrLDrjEV+KTjNMlO8KUrVMAwukoatiMaNF+f27kitLKEEj+Auis6VWPFs+APfiZRG+A==
   dependencies:
     "@groceristar/sd-wrapper" "^4.9.2"
     dayjs "^1.8.12"
@@ -1026,10 +1026,10 @@
     snyk "^1.180.1"
     uuid "^3.3.2"
 
-"@groceristar/recipes-methods@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@groceristar/recipes-methods/-/recipes-methods-0.1.0.tgz#8e14311c896263db558da34e267b1364ef6f1a73"
-  integrity sha512-azLgchv7p8LU+qHgcBhn/+47MNQF/nrKfAEjdPG+GmGeV9RUFLB2BJ6TxKKEZYvBKIdft05aW5C2pogzSbhjdg==
+"@groceristar/recipes-methods@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@groceristar/recipes-methods/-/recipes-methods-0.1.2.tgz#9de5a5f48a478fd9e5875fdd6586695b80a3ac9e"
+  integrity sha512-sdrCXEqvR59WFuEvgiLVG1X1pRDDTFJQQpRJXBrpXb8OM0HfBudTxoUdyb84omw5nFbpKEIDz3TdBHWAik6xkg==
   dependencies:
     "@groceristar/sd-wrapper" "^4.9.2"
     dayjs "^1.8.12"
