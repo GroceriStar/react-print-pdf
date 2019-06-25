@@ -1,7 +1,5 @@
-// import {
-//   groceristar,
-//   chickenKyiv
-// } from "@groceristar/groceristar-fetch";
+
+import chickenKyiv from '@groceristar/recipes-methods'
 import groceristar from '@groceristar/fetch-grocery-list'
 // import
   // groceristar
@@ -55,39 +53,39 @@ function getGroceryDataFromId(id){
 
 
 //----------
-//
-// function getRandomRecipe(){
-//   return chickenKyiv.getRandomRecipe()
-//   // return ""
-// }
-//
-// function getFirstFiveRecipes(){
-//   return chickenKyiv.getFirstFiveRecipes();
-//   // return ""
-// }
-//
-//
-// function getShowcaseFiveRecipes(){
-//   return chickenKyiv.getShowcaseFiveRecipes();
-//   // return ""
-// }
-//
-//
-// function getFiveRandomIngredients(){
-//   return chickenKyiv.getFiveRandomIngredients();
-//   // return ""
-// }
-//
-// //@TODO i don't like this name too
-// function getRecipeChickenKyivById(id) {
-//   return chickenKyiv.getRecipe()[id];
-//   // return ""
-// }
-//
-// function getRecipes() {
-//   return chickenKyiv.getRecipe();
-//   // return ""
-// }
+
+function getRandomRecipe(){
+  return chickenKyiv.getRandomRecipe()
+  // return ""
+}
+
+function getFirstFiveRecipes(){
+  return chickenKyiv.getFirstFiveRecipes();
+  // return ""
+}
+
+
+function getShowcaseFiveRecipes(){
+  return chickenKyiv.getShowcaseFiveRecipes();
+  // return ""
+}
+
+
+function getFiveRandomIngredients(){
+  return chickenKyiv.getFiveRandomIngredients();
+  // return ""
+}
+
+//@TODO i don't like this name too
+function getRecipeChickenKyivById(id) {
+  return chickenKyiv.getRecipe()[id];
+  // return ""
+}
+
+function getRecipes() {
+  return chickenKyiv.getRecipe();
+  // return ""
+}
 
 export {
   getGroceryById,
@@ -97,12 +95,12 @@ export {
   getAllGrocery,
 
 
-  // getRandomRecipe,
-  // getFirstFiveRecipes,
-  // getFiveRandomIngredients,
-  // getRecipeChickenKyivById,
-  // getShowcaseFiveRecipes,
-  // getRecipes,
+  getRandomRecipe,
+  getFirstFiveRecipes,
+  getFiveRandomIngredients,
+  getRecipeChickenKyivById,
+  getShowcaseFiveRecipes,
+  getRecipes,
 
 
 }

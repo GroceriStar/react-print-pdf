@@ -1026,6 +1026,18 @@
     snyk "^1.180.1"
     uuid "^3.3.2"
 
+"@groceristar/recipes-methods@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@groceristar/recipes-methods/-/recipes-methods-0.1.0.tgz#8e14311c896263db558da34e267b1364ef6f1a73"
+  integrity sha512-azLgchv7p8LU+qHgcBhn/+47MNQF/nrKfAEjdPG+GmGeV9RUFLB2BJ6TxKKEZYvBKIdft05aW5C2pogzSbhjdg==
+  dependencies:
+    "@groceristar/sd-wrapper" "^4.9.2"
+    dayjs "^1.8.12"
+    fs "0.0.2"
+    lodash "^4.17.10"
+    raven-js "^3.27.1"
+    uuid "^3.3.2"
+
 "@groceristar/sd-wrapper@^1.0.20":
   version "1.0.20"
   resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-1.0.20.tgz#2948e2983a1a05df971fc0ad45663e5b386d45f2"
