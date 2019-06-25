@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@groceristar/antd-showcase-components": "^1.0.47",
+    "@groceristar/fetch-grocery-list": "^0.1.0",
     "@groceristar/groceristar-fetch": "^1.2.19",
     "@groceristar/pdf-export": "^1.2.2",
     "@react-pdf/renderer": "^1.6.2",
