@@ -7,7 +7,7 @@
     "@groceristar/fetch-grocery-list": "^0.1.1",
     "@groceristar/groceristar-fetch": "^1.2.19",
     "@groceristar/pdf-export": "^1.2.2",
-    "@groceristar/recipes-methods": "^0.1.2",
+    "@groceristar/recipes-methods": "^0.1.3",
     "@react-pdf/renderer": "^1.6.2",
     "antd": "^3.19.8",
     "lodash": "^4.17.11",
