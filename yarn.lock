@@ -994,17 +994,18 @@
     underscore "^1.9.1"
     uuid "^3.3.2"
 
-"@groceristar/groceristar-fetch@^1.2.19":
-  version "1.2.19"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-1.2.19.tgz#db59d45c58b38302cb40b75490f465cb24ffd0a2"
-  integrity sha512-0WOhAfA7C3nuVbQXeTm8H6zWKsivyOk7pBJew5hddWyx+kbQZvBEe4zZ5PkSvZFI0pYAusPH++RDzi84kCM18g==
+"@groceristar/groceristar-fetch@^2.2.4":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.2.4.tgz#68da9cdb16c42bd99bd930a50c00591c05e12d49"
+  integrity sha512-1FyBqBOyBOm4tG5XEBetRVi4QjdeencxOKKblc2tBCWxyQY0+jTGOYSAN+3gRhwAshKaHypUs7WHp0tmOYOFKw==
   dependencies:
-    "@groceristar/sd-wrapper" "^1.0.20"
-    dayjs "^1.8.0"
+    "@groceristar/sd-wrapper" "^4.11.3"
+    dayjs "^1.8.12"
     fs "0.0.2"
     lodash "^4.17.10"
+    raven-js "^3.27.1"
     underscore "^1.9.1"
-    uuid "3.3.2"
+    uuid "^3.3.2"
 
 "@groceristar/grocery-component@^1.0.10":
   version "1.0.10"
@@ -1038,18 +1039,10 @@
     raven-js "^3.27.1"
     uuid "^3.3.2"
 
-"@groceristar/sd-wrapper@^1.0.20":
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-1.0.20.tgz#2948e2983a1a05df971fc0ad45663e5b386d45f2"
-  integrity sha512-WP9WmSNHTuhrXsetIKYrS5dA5oXrb1ORbJrtB8U1sLzUv3MRYd7a8y8GvsAQqdNPY1cUc7Tk1cQwfkjqNqGjYA==
-  dependencies:
-    path "^0.12.7"
-    uuid "^3.3.2"
-
-"@groceristar/sd-wrapper@^4.9.2":
-  version "4.11.1"
-  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-4.11.1.tgz#a2a07a618528f3a97e1a0a5f64fa73fd22211fb5"
-  integrity sha512-JFq1FEE8xAhiAuDz+jwjVgNpxONsX07987YmfOscoLH0MicVbBsViyfdfyZeZSxI6qFBvh43w/CJ9SxhcVGfmg==
+"@groceristar/sd-wrapper@^4.11.3", "@groceristar/sd-wrapper@^4.9.2":
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-4.11.3.tgz#fafa3c713d4d84e945408745974b7a515a9011a2"
+  integrity sha512-jwEmg9ELXiHSzlSbR7GBlhoglB06i4iZucgFZI8bMte2lF+S5w3/MES1noKyzyNcMIHTT8HpYvn7AQCbao47mg==
   dependencies:
     csv-parser "^2.3.0"
     dayjs "^1.8.14"
@@ -4050,7 +4043,7 @@ date-now@^0.1.4:
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
   integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
 
-dayjs@^1.8.0, dayjs@^1.8.12, dayjs@^1.8.14:
+dayjs@^1.8.12, dayjs@^1.8.14:
   version "1.8.14"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.14.tgz#43e4f62830c2c3342c3fcd25934dc9162dbe6f38"
   integrity sha512-AVhDmRTe541iWirnoeFSSDDGvCT6HWaNQ4z2WmmzXMGZj6ph6ydao2teKq/eUtR43GPJXlYFD+C/SotG1P9wUQ==
@@ -12406,7 +12399,7 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@3.3.2, uuid@^3.0.1, uuid@^3.3.2:
+uuid@^3.0.1, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
