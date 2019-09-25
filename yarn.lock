@@ -823,17 +823,10 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-transform-typescript" "^7.3.2"
 
-"@babel/runtime@7.5.5", "@babel/runtime@^7.4.5":
+"@babel/runtime@7.5.5", "@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.5":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
   integrity sha512-28QvEGyQyNkB0/m2B4FU7IEZGK2NUrcMtT6BZEFALTguLk+AUT6ofsHtPk5QyjAdUkpMJ+/Em+quwz4HOt30AQ==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3":
-  version "7.4.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
-  integrity sha512-TuI4qpWZP6lGOGIuGWtp9sPluqYICmbk8T/1vpSysqJxRPkudh/ofFWyqdcMsDf2s7KvDL4/YHgKyvcS3g9CJQ==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -1235,10 +1228,10 @@
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
   integrity sha1-APy5adykzoKgp2c0E63gOeR7Nh4=
 
-"@react-pdf/renderer@^1.5.1", "@react-pdf/renderer@^1.6.4":
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.6.4.tgz#282acdab90a2a33e99921cd191fde12c8d4db631"
-  integrity sha512-/R/NPc3plpZnw8oE6ngoRuVVYV1mlXl3QQd64gK9mUG09T/hMhTJFtGnoJAEFNfAoxoO9P2P/6jxpYCpFUbuxA==
+"@react-pdf/renderer@^1.5.1", "@react-pdf/renderer@^1.6.5":
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.6.5.tgz#cc73dcefa3e073b7005e4394b604b2d88f5bb0ba"
+  integrity sha512-q7LAEVvh/IwUY1ixZDnkcaUbZm3n8Vtt5RRApVGRoMfccQuZZIXFwpAM1e9QuVMhi6GLRduYsy8bvzl1sTPuMg==
   dependencies:
     "@babel/runtime" "^7.3.1"
     "@react-pdf/fontkit" "^1.13.0"
