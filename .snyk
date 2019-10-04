@@ -8,3 +8,12 @@ patch:
         patched: '2019-08-14T17:51:14.822Z'
     - '@groceristar/pdf-export > snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash':
         patched: '2019-08-14T17:51:14.822Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T01:12:24.251Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T01:12:24.251Z'
+    - '@groceristar/pdf-export > snyk > proxy-agent > https-proxy-agent':
+        patched: '2019-10-04T01:12:24.251Z'
+    - '@groceristar/pdf-export > snyk > proxy-agent > pac-proxy-agent > https-proxy-agent':
+        patched: '2019-10-04T01:12:24.251Z'
