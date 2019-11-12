@@ -830,14 +830,7 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.2":
-  version "7.6.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.2.tgz#c3d6e41b304ef10dcf13777a33e7694ec4a9a6dd"
-  integrity sha512-EXxN64agfUqqIGeEjI5dL5z0Sw0ZwWo1mLTi4mQowCZ42O59b7DRpZAnTC6OqdF28wMBMFKNb/4uFGrVaigSpg==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
-"@babel/runtime@^7.5.5":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2":
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
   integrity sha512-kq6anf9JGjW8Nt5rYfEuGRaEAaH1mkv3Bbu6rYvLOpPh/RusSJXuKPEAoZ7L7gybZkchE8+NV5g9vKF4AGAtsA==
@@ -1241,10 +1234,10 @@
     tiny-inflate "^1.0.2"
     unicode-trie "^0.3.0"
 
-"@react-pdf/pdfkit@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@react-pdf/pdfkit/-/pdfkit-1.2.0.tgz#f5fe288578567536e58de1998a3e13ee2e4ac930"
-  integrity sha1-9f4ohXhWdTbljeGZij4T7i5KyTA=
+"@react-pdf/pdfkit@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@react-pdf/pdfkit/-/pdfkit-1.4.2.tgz#ae3b754996d2c29eae6ce1f7b44bdd64ae7231e3"
+  integrity sha512-+gamdExmRwTFnXu1bLO46Vr2x4l8B77hGOOYnydyOj77NLFmlFpNSa9nFXxqFxWgErQQSltTOgW79oyEQVLd8Q==
   dependencies:
     "@react-pdf/fontkit" "^1.11.0"
     "@react-pdf/png-js" "^1.0.0"
@@ -1255,14 +1248,14 @@
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
   integrity sha1-APy5adykzoKgp2c0E63gOeR7Nh4=
 
-"@react-pdf/renderer@^1.5.1", "@react-pdf/renderer@^1.6.7":
-  version "1.6.7"
-  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.6.7.tgz#60be914a8bf6386e870e76df730dacf4aa091fcd"
-  integrity sha512-8baH3zeOEBum7zEZa9lssFzddKaMHHDenMK+/mb1Lc/JivoSseRXmyfA+suYIipuX+OBgIIWOLkXzfL+6ZJ4xA==
+"@react-pdf/renderer@^1.5.1", "@react-pdf/renderer@^1.6.8":
+  version "1.6.8"
+  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.6.8.tgz#f8fcb6be0d3966eed879ecfd8a9d046b5015db7d"
+  integrity sha512-m0C/Gxb+YAqH7MKKRir9nOHxtooZDpkslr1XBOII1kX/Me4oqUjiql1CHAmIcHqMBaM57jo0sZc3ZlpusbEM3A==
   dependencies:
     "@babel/runtime" "^7.6.2"
     "@react-pdf/fontkit" "^1.13.0"
-    "@react-pdf/pdfkit" "^1.2.0"
+    "@react-pdf/pdfkit" "^1.4.2"
     "@react-pdf/png-js" "^1.0.0"
     "@react-pdf/textkit" "^0.3.7"
     blob-stream "^0.1.3"
