@@ -11,7 +11,7 @@
     "@react-pdf/renderer": "^1.6.8",
     "antd": "^3.23.2",
     "lodash": "^4.17.14",
-    "react": "^16.11.0",
+    "react": "^16.12.0",
     "react-dom": "^16.9.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.0.1",
