@@ -9,7 +9,7 @@
     "@groceristar/pdf-export": "^1.2.2",
     "@groceristar/recipes-methods": "^0.1.4",
     "@react-pdf/renderer": "^1.6.8",
-    "antd": "^4.0.2",
+    "antd": "^4.9.3",
     "lodash": "^4.17.14",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
